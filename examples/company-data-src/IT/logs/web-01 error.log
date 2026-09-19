@@ -1,0 +1,23 @@
+2026/06/14 06:58:12 [warn] 1187#1187: *88213 upstream response time 4.812s, client: 198.51.100.24, server: www.kestrelbay.example, request: "GET /tents/fellwalker-3 HTTP/2.0", upstream: "http://10.20.1.11:3000/tents/fellwalker-3"
+2026/06/14 07:02:44 [error] 1187#1187: *88311 connect() failed (111: Connection refused) while connecting to upstream, client: 203.0.113.87, server: www.kestrelbay.example, request: "GET /summer-sale HTTP/2.0", upstream: "http://10.20.1.12:3000/summer-sale"
+2026/06/14 07:02:44 [warn] 1187#1187: *88311 upstream server temporarily disabled while connecting to upstream, upstream: "http://10.20.1.12:3000"
+2026/06/14 07:03:01 [error] 1187#1187: *88340 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 198.51.100.140, server: www.kestrelbay.example, request: "POST /checkout/payment HTTP/2.0", upstream: "http://10.20.1.11:3000/checkout/payment"
+2026/06/14 07:03:05 [error] 1187#1187: *88344 no live upstreams while connecting to upstream, client: 203.0.113.12, server: www.kestrelbay.example, request: "GET / HTTP/2.0", upstream: "http://webshop/"
+2026/06/14 07:03:05 [error] 1187#1187: *88345 no live upstreams while connecting to upstream, client: 203.0.113.45, server: www.kestrelbay.example, request: "GET /rucksacks HTTP/2.0", upstream: "http://webshop/rucksacks"
+2026/06/14 07:04:19 [error] 1187#1187: *88390 no live upstreams while connecting to upstream, client: 198.51.100.7, server: www.kestrelbay.example, request: "GET /basket HTTP/2.0", upstream: "http://webshop/basket"
+2026/06/14 07:11:52 [crit] 1187#1187: *88502 SSL_do_handshake() failed (SSL: error:0A00010B:SSL routines::wrong version number) while SSL handshaking to upstream, client: 203.0.113.201, server: www.kestrelbay.example
+2026/06/14 07:15:30 [error] 1187#1187: *88577 no live upstreams while connecting to upstream, client: 198.51.100.66, server: www.kestrelbay.example, request: "GET /help/returns-faq.html HTTP/2.0", upstream: "http://webshop/help/returns-faq.html"
+2026/06/14 07:22:08 [notice] 1180#1180: signal process started
+2026/06/14 07:22:08 [notice] 1180#1180: reconfiguring
+2026/06/14 07:31:40 [error] 1204#1204: *88801 upstream prematurely closed connection while reading response header from upstream, client: 203.0.113.87, server: www.kestrelbay.example, request: "POST /checkout/payment HTTP/2.0", upstream: "http://10.20.1.13:3000/checkout/payment"
+2026/06/14 07:45:03 [info] 1204#1204: *89012 client closed connection while waiting for request, client: 198.51.100.24, server: 0.0.0.0:443
+2026/06/14 07:49:57 [notice] 1204#1204: upstream "webshop" all peers healthy (3/3)
+2026/06/14 09:14:21 [error] 1204#1204: *90455 access forbidden by rule, client: 192.0.2.150, server: www.kestrelbay.example, request: "GET /.git/config HTTP/1.1"
+2026/06/14 09:14:22 [error] 1204#1204: *90456 access forbidden by rule, client: 192.0.2.150, server: www.kestrelbay.example, request: "GET /admin/config.php.bak HTTP/1.1"
+2026/06/14 09:14:22 [error] 1204#1204: *90457 access forbidden by rule, client: 192.0.2.150, server: www.kestrelbay.example, request: "GET /admin/.env HTTP/1.1"
+2026/06/14 11:40:18 [warn] 1204#1204: *93311 limiting requests, excess: 20.460 by zone "login", client: 192.0.2.77, server: www.kestrelbay.example, request: "POST /account/login HTTP/2.0"
+2026/06/14 11:40:19 [warn] 1204#1204: *93318 limiting requests, excess: 20.910 by zone "login", client: 192.0.2.77, server: www.kestrelbay.example, request: "POST /account/login HTTP/2.0"
+2026/06/14 11:40:21 [error] 1204#1204: *93325 limiting requests, excess: 21.380 by zone "login", client: 192.0.2.77, server: www.kestrelbay.example, request: "POST /account/login HTTP/2.0"
+2026/06/14 14:02:37 [warn] 1204#1204: *97740 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/41/0000004113 while reading upstream, client: 198.51.100.19, server: www.kestrelbay.example, request: "GET /media/lookbook-aw26-preview.pdf HTTP/2.0"
+2026/06/14 18:26:55 [error] 1204#1204: *104220 open() "/var/www/static/assets/img/hero-summer-2025.jpg" failed (2: No such file or directory), client: 203.0.113.140, server: www.kestrelbay.example, request: "GET /assets/img/hero-summer-2025.jpg HTTP/2.0"
+2026/06/14 23:59:01 [notice] 1204#1204: disk usage /var/log 86% - logrotate scheduled

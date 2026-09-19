@@ -1,0 +1,35 @@
+# Kestrel Bay Supplies Ltd - Expense Claim Form
+Form FIN-07, revision 3. Use one form per claim period (maximum one calendar month). Return the completed form with receipts to accounts@kestrelbay.example.
+# 1. Claimant details
+Full name: ________________________________
+Job title: ________________________________
+Department / cost centre: ________________________________
+Line manager: ________________________________
+Claim period (month and year): ________________________________
+# 2. Expenses claimed
+Date | Description and business purpose | Category | Receipt no. | Net £ | VAT £ | Gross £
+______ | ______________________________ | __________ | ______ | ________ | ________ | ________
+______ | ______________________________ | __________ | ______ | ________ | ________ | ________
+______ | ______________________________ | __________ | ______ | ________ | ________ | ________
+______ | ______________________________ | __________ | ______ | ________ | ________ | ________
+______ | ______________________________ | __________ | ______ | ________ | ________ | ________
+______ | ______________________________ | __________ | ______ | ________ | ________ | ________
+Total claimed (A): £____________
+# 3. Mileage (own vehicle on company business)
+Date | From | To | Purpose of journey | Miles | Rate | £
+______ | __________ | __________ | ______________________ | ______ | ______ | ________
+______ | __________ | __________ | ______________________ | ______ | ______ | ________
+______ | __________ | __________ | ______________________ | ______ | ______ | ________
+Total mileage (B): £____________
+Rate: 45p per mile for the first 10,000 business miles in the tax year, 25p per mile after that. Home to normal place of work is not claimable.
+# 4. Total to reimburse (A + B): £____________
+# Categories
+Travel (rail, bus, taxi, parking) / Accommodation / Subsistence (meals when away overnight, maximum £30 per day) / Trade shows and events / Stationery and small equipment under £100 / Other (please explain).
+# Rules
+Submit your claim within 30 days of the spend. Attach an itemised receipt for every item over £10; card slips alone are not accepted. Alcohol is not reimbursed. Claims over £500 need Finance Director approval. Approved claims are paid with the next monthly payroll.
+# Declaration
+I confirm that these expenses were incurred wholly and necessarily on company business and have not been claimed before.
+Claimant signature: ______________________  Date: ____________
+Approved by (line manager): ______________________  Date: ____________
+# Finance use only
+Checked by: __________  Nominal code: __________  Paid in payroll month: __________

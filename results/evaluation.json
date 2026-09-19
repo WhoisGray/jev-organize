@@ -1,0 +1,112 @@
+{
+  "ran_at": "2026-09-19T16:13:10.757Z",
+  "answered_by": [
+    "typesafe/jev-1.13-20260917"
+  ],
+  "company_detected": "Kestrel Bay Supplies Ltd",
+  "names_only": false,
+  "usage": {
+    "this_run": {
+      "calls": 59,
+      "input_tokens": 242634,
+      "cost_usd": 0.010191,
+      "seconds": 4.053
+    },
+    "classification": {
+      "files_sent": 59,
+      "cost_usd": 0.010191,
+      "cost_per_1000_files_usd": 0.1727
+    }
+  },
+  "metrics": {
+    "files": 61,
+    "department": {
+      "correct": 55,
+      "of": 56,
+      "pct": 98.2
+    },
+    "department_when_not_in_review": {
+      "correct": 54,
+      "of": 55,
+      "pct": 98.2
+    },
+    "type": {
+      "correct": 54,
+      "of": 56,
+      "pct": 96.4
+    },
+    "type_when_not_in_review": {
+      "correct": 53,
+      "of": 55,
+      "pct": 96.4
+    },
+    "sensitivity_exact": {
+      "correct": 49,
+      "of": 56,
+      "pct": 87.5
+    },
+    "sensitivity_within_one_level": {
+      "correct": 56,
+      "of": 56,
+      "pct": 100
+    },
+    "restricted_recall": {
+      "correct": 8,
+      "of": 8,
+      "pct": 100
+    },
+    "restricted_precision": {
+      "correct": 8,
+      "of": 9,
+      "pct": 88.9
+    },
+    "date": {
+      "correct": 56,
+      "of": 56,
+      "pct": 100
+    },
+    "date_when_labelled": {
+      "correct": 39,
+      "of": 39,
+      "pct": 100
+    },
+    "counterparty": {
+      "correct": 56,
+      "of": 56,
+      "pct": 100
+    },
+    "counterparty_when_labelled": {
+      "correct": 14,
+      "of": 14,
+      "pct": 100
+    },
+    "noise_found": {
+      "correct": 3,
+      "of": 3,
+      "pct": 100
+    },
+    "noise_false_alarms": [],
+    "duplicates_found": {
+      "correct": 2,
+      "of": 2,
+      "pct": 100
+    },
+    "sent_to_review": {
+      "correct": 1,
+      "of": 56,
+      "pct": 1.8
+    }
+  },
+  "misses": [
+    "sensitivity Desktop/all hands july.pptx: confidential expected internal",
+    "sensitivity Desktop/notes.txt: confidential expected internal",
+    "sensitivity Downloads/Your receipt from Harbourside Print Studio.eml: confidential expected internal",
+    "sensitivity from Sarah/FW_ Order KB-58213 - tent pole snapped.eml: restricted expected confidential",
+    "department  IT/scripts/sync_stock.py: operations (0.65) expected product-engineering",
+    "sensitivity IT/software_licences.json: confidential expected internal",
+    "type        Shared Drive/Operations/stock report wk24.xlsx: dataset (1) expected report-analysis",
+    "sensitivity Shared Drive/Operations/stock report wk24.xlsx: confidential expected internal",
+    "sensitivity Shared Drive/Support/tickets_export_june2026.csv: confidential expected internal",
+    "type        website/help/returns-faq.html: marketing-content (1) expected policy-procedure"
+  ]
+}

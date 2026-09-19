@@ -1,0 +1,38 @@
+PELHAM CLOUD SERVICES LTD
+Suite 5, Canal Wharf, Leeds LS11 5PZ | billing@pelhamcloud.example
+VAT Reg No: GB 402 1187 55 | Company No. 09288341
+
+INVOICE PCS-88412
+
+Invoice date:     30 June 2026
+Billing period:   1 June 2026 - 30 June 2026
+Account:          ACC-20417 (Kestrel Bay Supplies Ltd)
+Contract:         Managed Hosting Agreement MHA-2024-117, Business tier
+Payment method:   Direct Debit, collected on or after 10 July 2026
+
+Bill to: Kestrel Bay Supplies Ltd, IT Department (Owen Pryce),
+14 Quayside Lane, Bristol BS1 6XJ
+
+Service                                   Units            Rate GBP    Amount GBP
+Managed container cluster (3 nodes)       720 node-hrs         1.10        792.00
+Managed PostgreSQL, 4 vCPU / 16 GB        720 hrs              0.95        684.00
+Object storage (backups)                  2,140 GB-month      0.018         38.52
+Content delivery (web shop)               3,860 GB             0.04        154.40
+Load balancer                             720 hrs              0.03         21.60
+Premium support (8x5, 1h P1 response)     1 month            350.00        350.00
+Additional IPv4 addresses                 2 x 1 month          4.00          8.00
+Credit: SLA breach 14 June (99.61% against 99.9% target)                   -79.20
+
+                                          Subtotal                      1,969.32
+                                          VAT @ 20%                       393.86
+                                          Total due (GBP)               2,363.18
+
+Usage notes
+- Content delivery traffic up 22% on May (summer sale).
+- Database storage at 81% of the allocated 200 GB. Consider an upgrade before
+  September to avoid automatic scaling charges.
+- Incident PCS-INC-5521 (14 June, load balancer failover, 47 minutes of degraded
+  service) - post-incident report available in the customer portal.
+
+Pelham Cloud Services Ltd - thank you for your business.
+Questions about this invoice: billing@pelhamcloud.example, 0113 496 0612

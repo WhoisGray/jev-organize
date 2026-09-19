@@ -1,0 +1,30 @@
+# Product Specification - Ridgeback 2P backpacking tent
+Document PS-RB2, version 1.2, 2 April 2026. Author: Lukas Brandt (Product Designer). Approver: Tom Albright (Product Director). Status: for sampling.
+# 1. Product summary
+A light two-person, two-door, semi-freestanding tent for backpackers and wild campers in UK conditions. It sits between the Fellwalker 3 (family trekking) and the discontinued Solo Tarn. Target launch 1 February 2027. Target RRP £279; target landed cost £61.50.
+# 2. Key targets
+Minimum trail weight (fly, inner, poles): 1.65 kg. Packed weight with pegs and bags: 1.89 kg. Packed size: 42 x 15 cm.
+Floor: 220 x 130 cm (tapering to 110 cm at the foot). Peak height: 105 cm.
+Two side doors, two porches of 0.8 m2 each.
+Pitch time (one person, first-time user with instructions): under 4 minutes. Pitches fly-first or all-in-one.
+Wind: stable in 50 mph gusts when fully guyed (test in the Avonmouth wind rig, then field test on Dartmoor).
+# 3. Materials
+Flysheet: 70D ripstop nylon, silicone outer / PU inner, hydrostatic head 3,000 mm minimum, fabric code NT-RS70-OL (Kestrel olive).
+Inner: 40D no-see-um mesh upper (NT-MS40-GR) with 20D breathable nylon lower panels.
+Groundsheet: 210T polyester PU 5,000 mm (NT-PL21-BK), bathtub height 12 cm.
+Poles: 8.5 mm 7001-T6 aluminium, one hubbed main pole plus a short ridge pole. Shock cord replaceable.
+Pegs: 10 x 6 g Y-section aluminium, plus 2 spare.
+Seams: fully taped on fly and groundsheet.
+# 4. Features
+Two vents with rigid struts. Four inner pockets and one overhead lamp loop. Reflective guy lines (6 points). Colour-coded pole clips. Fly door hooks to hold doors open. Stuff sack with compression straps and printed pitching instructions.
+# 5. Testing and standards
+Hydrostatic head tested on every production batch (supplier certificate plus 1 in 20 in-house check). Flame resistance labelling where required for export markets. Seam strength and UV testing to our internal standard QS-04.
+# 6. Timeline
+Sample round 1: June 2026. Field testing with 12 staff and 6 ambassadors: July-August 2026. Sample round 2 (fixes): September 2026. Production order: November 2026. Warehouse arrival: early January 2027. Launch: 1 February 2027.
+# 7. Open issues
+1. Weight is 70 g over target in sample 0 - options: lighter pole hub or 15D mesh.
+2. Olive colour matching between fly and door zips - agree a tolerance with the zip supplier.
+3. Decide whether a footprint (£29 RRP) is sold separately or included.
+4. Packaging: move to printed paper bag instead of polybag (aligns with the Tidewell carton change).
+# Change log
+v1.0 initial specification. v1.1 floor width increased from 125 to 130 cm after staff feedback. v1.2 added wind test and packaging decision.

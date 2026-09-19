@@ -1,0 +1,81 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Length 2566 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+50 800 Td
+(KESTREL BAY SUPPLIES LTD - VAT RETURN SUMMARY) Tj
+T* (VAT registration number: GB 318 4471 26) Tj
+T* () Tj
+T* (Period:              01/01/2026 to 31/03/2026 \(quarter ref 03 26\)) Tj
+T* (Scheme:              standard accounting, quarterly, Making Tax Digital) Tj
+T* (Prepared by:         Chloe Danes, Finance Assistant) Tj
+T* (Reviewed by:         Nadia Brennan, Finance Director) Tj
+T* (Submitted:           7 May 2026 via LedgerLeaf MTD bridge) Tj
+T* (Submission receipt:  MTD-7731-0426-KBS) Tj
+T* (Payment:             by Direct Debit, collected 12 May 2026) Tj
+T* () Tj
+T* (Box  Description                                                         GBP) Tj
+T* (1    VAT due on sales and other outputs                           188,839.40) Tj
+T* (2    VAT due on acquisitions \(Northern Ireland only\)                    0.00) Tj
+T* (3    Total VAT due \(box 1 + box 2\)                                188,839.40) Tj
+T* (4    VAT reclaimed on purchases and other inputs                  118,904.72) Tj
+T* (5    Net VAT to pay                                                69,934.68) Tj
+T* (6    Total value of sales and outputs, excluding VAT              991,640) Tj
+T* (7    Total value of purchases and inputs, excluding VAT           612,480) Tj
+T* (8    Total value of supplies of goods \(Northern Ireland only\)           0) Tj
+T* (9    Total value of acquisitions of goods \(Northern Ireland only\)       0) Tj
+T* () Tj
+T* (Reconciliation notes) Tj
+T* (- Box 6 includes zero-rated export sales of 41,380 GBP \(retailers in Ireland and) Tj
+T* (  Norway\) and 5,240 GBP of carriage recharged to trade customers.) Tj
+T* (- Box 6 reconciles to Q1 revenue in the management accounts \(986,400 GBP\) plus) Tj
+T* (  carriage recharges, less the credit notes below.) Tj
+T* (- Box 1 reconciles to the VAT control account \(nominal 2200\) after adjusting for) Tj
+T* (  1,212.60 GBP of output VAT on credit notes CN-0114 to CN-0121.) Tj
+T* (- Box 4 includes 2,184.00 GBP import VAT under postponed VAT accounting on the) Tj
+T* (  Tidewell carton deliveries, and 17,000 GBP on Avonmouth racking and fit-out.) Tj
+T* (- No bad debt relief claimed this quarter.) Tj
+T* () Tj
+T* (Movement against the previous quarter \(Q4 2025\)) Tj
+T* (- Output VAT down 31% \(seasonal; Q4 includes Christmas trade orders\).) Tj
+T* (- Input VAT up 9% because of the warehouse fit-out.) Tj
+T* () Tj
+T* (Sign-off) Tj
+T* (I confirm the figures above agree to the ledger and to the MTD submission.) Tj
+T* (N. Brennan, Finance Director, 7 May 2026) Tj
+T* () Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Title (VAT return Q1 2026 summary) >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000212 00000 n 
+0000002830 00000 n 
+0000002956 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R /Info 6 0 R >>
+startxref
+3013
+%%EOF

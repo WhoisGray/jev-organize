@@ -1,0 +1,16 @@
+lead_id,company,contact_name,job_title,email,phone,town,source,stage,est_annual_value_gbp,owner,last_contact,next_step
+L-2041,Ashdown Camping Centre Ltd,Rachel Penfold,Owner,rachel@ashdowncamping.example,01632 960 114,Crowborough,Outdoor Trade Expo 2025,Proposal sent,24000,Ben Hollis,2026-06-24,Chase proposal 8 July
+L-2044,Loch Ard Adventure Supplies,Callum MacRae,Buyer,callum.macrae@locharda.example,0141 496 0381,Aberfoyle,Website enquiry,Qualified,15000,Ben Hollis,2026-06-17,Send AW26 lookbook
+L-2047,Pennine Peak Outdoors Ltd,Sunita Rao,Purchasing Manager,s.rao@penninepeak.example,0113 496 0922,Hebden Bridge,Referral (Cairn & Co),Meeting booked,38000,James Corrigan,2026-06-29,Visit 14 July with samples
+L-2050,Gorse & Heather Leisure,Tom Treloar,Director,tom@gorseheather.example,01632 960 377,Truro,Cold email,Contacted,9000,Ben Hollis,2026-05-30,Follow up after half term
+L-2052,Wildmoor Scout & Guide Supplies,Diane Holt,Shop Manager,diane.holt@wildmoorscouts.example,01632 960 205,Exeter,Outdoor Trade Expo 2025,Qualified,12000,Ben Hollis,2026-06-11,Quote group-tent bundle
+L-2055,Riverbend Outdoor Store,Gareth Pugh,Owner,gareth@riverbendoutdoor.example,01632 960 648,Shrewsbury,Website enquiry,Won,18500,Ben Hollis,2026-06-02,Set up account (done)
+L-2058,Tor & Tarn Adventures Ltd,Jo Kellaway,Operations Lead,jo.kellaway@torandtarn.example,01632 960 519,Okehampton,Referral,Proposal sent,21000,James Corrigan,2026-06-26,Price check on FW3 vs competitor
+L-2061,Kittiwake Coastal Supplies,Liam Storr,Buyer,l.storr@kittiwakecoastal.example,0191 498 0277,Whitby,Marketplace seller outreach,Lost,6000,Ben Hollis,2026-04-21,Lost on price - revisit 2027
+L-2063,Highmoor Garden & Leisure,Philip Ainsworth,Head of Leisure Buying,p.ainsworth@highmoorgl.example,01632 960 830,Harrogate,Outdoor Trade Expo 2025,Negotiation,46000,James Corrigan,2026-06-30,Send revised terms (45 days)
+L-2066,Summit Street Outfitters,Nadia Qureshi,Co-founder,nadia@summitstreet.example,0114 496 0165,Sheffield,Social media,Qualified,11000,Ben Hollis,2026-06-18,Invite to Expo stand
+L-2068,Bracken Hill Holiday Parks Ltd,Owen Rees,Procurement Manager,owen.rees@brackenhillparks.example,029 2018 0493,Brecon,Website enquiry,Proposal sent,32000,James Corrigan,2026-06-22,Glamping bell tent spec needed
+L-2070,Northgate Youth Expeditions CIC,Amira Haddad,Equipment Coordinator,amira@northgateyouth.example,0191 498 0634,Durham,Referral,Meeting booked,14000,Ben Hollis,2026-06-27,Call 9 July re charity pricing
+L-2072,Fernside Field Studies Centre,Hugh Lambert,Centre Manager,hugh.lambert@fernsidefsc.example,01632 960 752,Ambleside,Cold email,Contacted,7500,Ben Hollis,2026-06-05,No reply - second email
+L-2075,Redpoll Bikes & Camping,Kate Sowerby,Owner,kate@redpollbikes.example,01632 960 418,Norwich,Social media,New,5000,Unassigned,2026-06-30,Assign owner
+L-2077,Caldbeck Country Stores,Robert Irving,Merchandise Manager,r.irving@caldbeckstores.example,01632 960 903,Carlisle,Outdoor Trade Expo 2025,Qualified,27000,James Corrigan,2026-06-15,Store visit August

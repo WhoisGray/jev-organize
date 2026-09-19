@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 440" width="1280" height="440" role="img" aria-labelledby="t d">
+  <title id="t">jev-organize</title>
+  <desc id="d">A messy company folder goes in: scan_0041.pdf, final FINAL v3.docx, holiday photos list.txt, export (2).csv. One Jev call per file classifies each one. Out comes an organized tree by department, type and year, with restricted files, files to review and duplicates set apart. Measured on the example data: about 0.4 seconds per file and 17 cents per 1,000 files. Comes with a Claude skill and a Codex agent.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1224"/>
+      <stop offset="1" stop-color="#172340"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#6366f1"/>
+    </marker>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .messy text { fill: #cbd5e1; font-size: 15px; }
+      .messy rect { fill: #1e2b4a; stroke: #2f3f66; }
+      .tree text { font-size: 15px; fill: #e2e8f0; }
+      .tree .dim { fill: #94a3b8; }
+      .tree .warn { fill: #fca5a5; }
+      .tree .amber { fill: #fcd34d; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="440" rx="24" fill="url(#bg)"/>
+  <circle cx="1190" cy="-30" r="220" fill="#14b8a6" opacity="0.06"/>
+  <circle cx="560" cy="490" r="210" fill="#6366f1" opacity="0.07"/>
+
+  <!-- Title -->
+  <text x="64" y="80" class="sans" font-size="15" font-weight="600" letter-spacing="2.5" fill="#5eead4">TYPESAFE · JEV · OPENROUTER</text>
+  <text x="62" y="140" class="sans" font-size="60" font-weight="800" fill="#ffffff">jev-organize</text>
+  <text x="64" y="180" class="sans" font-size="22" fill="#cbd5e1">Throw in a pile of company files. Get them classified and organized.</text>
+
+  <g class="sans" font-size="15" font-weight="600">
+    <rect x="64" y="204" width="156" height="34" rx="17" fill="#14b8a6" opacity="0.16"/>
+    <text x="142" y="226" text-anchor="middle" fill="#5eead4">~0.4 s per file</text>
+    <rect x="232" y="204" width="184" height="34" rx="17" fill="#6366f1" opacity="0.2"/>
+    <text x="324" y="226" text-anchor="middle" fill="#c7d2fe">17¢ per 1,000 files</text>
+    <rect x="428" y="204" width="236" height="34" rx="17" fill="#f59e0b" opacity="0.16"/>
+    <text x="546" y="226" text-anchor="middle" fill="#fcd34d">Claude skill + Codex agent</text>
+  </g>
+
+  <!-- In: a messy folder -->
+  <g class="messy mono">
+    <text x="64" y="284" class="sans" font-size="13" font-weight="600" letter-spacing="1.5" fill="#94a3b8">IN: A MESSY FOLDER</text>
+    <rect x="64" y="298" width="236" height="30" rx="8"/><text x="78" y="318">scan_0041.pdf</text>
+    <rect x="64" y="336" width="236" height="30" rx="8"/><text x="78" y="356">final FINAL v3.docx</text>
+    <rect x="64" y="374" width="236" height="30" rx="8"/><text x="78" y="394">holiday photos list.txt</text>
+    <rect x="312" y="298" width="186" height="30" rx="8"/><text x="326" y="318">export (2).csv</text>
+    <rect x="312" y="336" width="186" height="30" rx="8"/><text x="326" y="356">notes.txt</text>
+    <rect x="312" y="374" width="186" height="30" rx="8"/><text x="326" y="394">untitled.txt</text>
+  </g>
+
+  <!-- Jev -->
+  <path d="M520 351 L612 351" stroke="#818cf8" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <g class="sans">
+    <rect x="620" y="300" width="170" height="102" rx="14" fill="#6366f1" opacity="0.18" stroke="#818cf8"/>
+    <text x="705" y="332" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">Jev</text>
+    <text x="705" y="354" text-anchor="middle" font-size="13" fill="#c7d2fe">1 call per file</text>
+    <text x="705" y="373" text-anchor="middle" font-size="13" fill="#c7d2fe">department · type</text>
+    <text x="705" y="391" text-anchor="middle" font-size="13" fill="#c7d2fe">sensitivity · date · party</text>
+  </g>
+  <path d="M798 351 L862 351" stroke="#818cf8" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Out: an organized tree -->
+  <g class="tree mono">
+    <text x="876" y="268" class="sans dim" font-size="13" font-weight="600" letter-spacing="1.5">OUT: ORGANIZED + INDEXED</text>
+    <text x="876" y="296">Finance/Invoices/2025/</text>
+    <text x="876" y="320">Legal/Contracts/2026/</text>
+    <text x="876" y="344">Management &amp; Board/…</text>
+    <text x="876" y="368" class="warn">_Restricted/People &amp; HR/…</text>
+    <text x="876" y="392" class="amber">_Needs review/ · _Duplicates/</text>
+    <text x="876" y="416" class="dim">INDEX.md · AGENTS.md · report.html</text>
+  </g>
+</svg>

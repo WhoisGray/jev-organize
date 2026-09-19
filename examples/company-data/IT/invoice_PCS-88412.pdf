@@ -1,0 +1,79 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Length 2350 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+50 800 Td
+(PELHAM CLOUD SERVICES LTD) Tj
+T* (Suite 5, Canal Wharf, Leeds LS11 5PZ | billing@pelhamcloud.example) Tj
+T* (VAT Reg No: GB 402 1187 55 | Company No. 09288341) Tj
+T* () Tj
+T* (INVOICE PCS-88412) Tj
+T* () Tj
+T* (Invoice date:     30 June 2026) Tj
+T* (Billing period:   1 June 2026 - 30 June 2026) Tj
+T* (Account:          ACC-20417 \(Kestrel Bay Supplies Ltd\)) Tj
+T* (Contract:         Managed Hosting Agreement MHA-2024-117, Business tier) Tj
+T* (Payment method:   Direct Debit, collected on or after 10 July 2026) Tj
+T* () Tj
+T* (Bill to: Kestrel Bay Supplies Ltd, IT Department \(Owen Pryce\),) Tj
+T* (14 Quayside Lane, Bristol BS1 6XJ) Tj
+T* () Tj
+T* (Service                                   Units            Rate GBP    Amount GBP) Tj
+T* (Managed container cluster \(3 nodes\)       720 node-hrs         1.10        792.00) Tj
+T* (Managed PostgreSQL, 4 vCPU / 16 GB        720 hrs              0.95        684.00) Tj
+T* (Object storage \(backups\)                  2,140 GB-month      0.018         38.52) Tj
+T* (Content delivery \(web shop\)               3,860 GB             0.04        154.40) Tj
+T* (Load balancer                             720 hrs              0.03         21.60) Tj
+T* (Premium support \(8x5, 1h P1 response\)     1 month            350.00        350.00) Tj
+T* (Additional IPv4 addresses                 2 x 1 month          4.00          8.00) Tj
+T* (Credit: SLA breach 14 June \(99.61% against 99.9% target\)                   -79.20) Tj
+T* () Tj
+T* (                                          Subtotal                      1,969.32) Tj
+T* (                                          VAT @ 20%                       393.86) Tj
+T* (                                          Total due \(GBP\)               2,363.18) Tj
+T* () Tj
+T* (Usage notes) Tj
+T* (- Content delivery traffic up 22% on May \(summer sale\).) Tj
+T* (- Database storage at 81% of the allocated 200 GB. Consider an upgrade before) Tj
+T* (  September to avoid automatic scaling charges.) Tj
+T* (- Incident PCS-INC-5521 \(14 June, load balancer failover, 47 minutes of degraded) Tj
+T* (  service\) - post-incident report available in the customer portal.) Tj
+T* () Tj
+T* (Pelham Cloud Services Ltd - thank you for your business.) Tj
+T* (Questions about this invoice: billing@pelhamcloud.example, 0113 496 0612) Tj
+T* () Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Title (invoice_PCS-88412) >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000212 00000 n 
+0000002614 00000 n 
+0000002740 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R /Info 6 0 R >>
+startxref
+2788
+%%EOF

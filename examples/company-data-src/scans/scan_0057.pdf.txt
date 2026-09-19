@@ -1,0 +1,47 @@
+[Scan 0057 - Seite 1 von 1]
+
+TIDEWELL PACKAGING GMBH
+Hafenstrasse 118 - 21079 Hamburg - Deutschland
+Tel. +49 40 7731 5520 - buchhaltung@tidewell-packaging.example
+
+RECHNUNG
+
+Rechnungsnummer:     TW-2026-0233
+Rechnungsdatum:      12.05.2026
+Lieferdatum:         06.05.2026
+Kundennummer:        10488
+Ihre Bestellung:     PO-1203 vom 14.04.2026
+Ansprechpartner:     Jonas Albrecht
+
+Rechnungsempfänger:
+Kestrel Bay Supplies Ltd
+z. Hd. Kreditorenbuchhaltung
+14 Quayside Lane
+Bristol BS1 6XJ
+Vereinigtes Königreich
+USt-IdNr. des Empfängers: GB 318 4471 26
+
+Pos  Artikel      Bezeichnung                            Menge    Preis EUR   Gesamt EUR
+1    TW-BX-4020   Versandkarton 400x300x200, 2-wellig    3.000         0,68     2.040,00
+2    TW-BX-6040   Versandkarton 600x400x400, 2-wellig    1.200         1,34     1.608,00
+3    TW-PP-KB     Papierpolster, Druck "Kestrel Bay"     40 Rl.       22,50       900,00
+4    TW-TP-50     Nassklebeband 50 mm x 50 m             240 Rl.       3,15       756,00
+5    FR-UK        Fracht Hamburg - Avonmouth                 1       310,00       310,00
+
+                                         Nettobetrag              5.614,00 EUR
+                                         Umsatzsteuer 0 %             0,00 EUR
+                                         Rechnungsbetrag          5.614,00 EUR
+
+Steuerfreie Ausfuhrlieferung gemäß § 4 Nr. 1a i.V.m. § 6 UStG.
+Lieferbedingung: DAP Avonmouth. Zölle und Einfuhrabgaben trägt der Empfänger.
+
+Zahlungsbedingungen: 30 Tage netto, zahlbar bis 11.06.2026.
+Bei Zahlung bis 22.05.2026 gewähren wir 2 % Skonto (112,28 EUR).
+Bitte geben Sie bei Zahlung die Rechnungsnummer TW-2026-0233 an.
+
+Vielen Dank für Ihren Auftrag!
+
+Tidewell Packaging GmbH - Geschäftsführerin: Anke Behrens
+Amtsgericht Hamburg HRB 144207 - USt-IdNr. DE318552904
+
+[Stempel] EINGEGANGEN / RECEIVED 15 MAY 2026 - matched to PO-1203 FL

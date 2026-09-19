@@ -1,0 +1,39 @@
+[scan_0052 - 1 page, scan quality poor]
+
+KESTREL BAY SUPPLIES LTD
+14 Quayside Lane, Bristol BS1 6XJ | purchasing@kestrelbay.example | 0117 496 0721
+
+PURCHASE ORDER                                                  PO-1187
+
+Order date:        24 March 2026
+Supplier:          Northfell Textiles Ltd (supplier no. S-0114)
+Supplier address:  Mill 3, Calder Bank Road, Halifax HX1 4RT
+Supplier contact:  Karen Lister, Account Manager
+Raised by:         Frankie Lowe, Purchasing Coordinator
+Budget holder:     Sarah Whitlock, Operations Manager
+Required on site:  by 17 April 2026 (production slot for Fellwalker 3 re-run)
+Deliver to:        Unit 4, Portway Trade Park, Avonmouth, Bristol BS11 9QD
+Pricing basis:     Supply Agreement KBS/NTL/2026, Schedule 2
+
+Ln  Code         Description                            Qty (m)   Unit GBP    Total GBP
+1   NT-RS70-OL   Ripstop nylon 70D PU3000, olive          1,800       4.35     7,830.00
+2   NT-RS70-SN   Ripstop nylon 70D PU3000, sand           1,200       4.35     5,220.00
+3   NT-MS40-GR   Mesh inner 40D no-see-um, grey             900       1.92     1,728.00
+4   NT-PL21-BK   Polyester 210T PU5000 groundsheet          750       3.10     2,325.00
+
+                                    Order value (ex VAT)              17,103.00
+                                    Carriage                  at cost, max 200.00
+
+Delivery instructions
+- Goods-in hours 07:30-15:00 Monday to Friday. Book a slot 24h ahead: 0117 496 0735.
+- Maximum pallet height 1.6 m. Label every roll with PO number, code and batch.
+- Include a certificate of conformity (hydrostatic head test) for each batch.
+
+Invoicing
+- Invoices must quote PO-1187 and be sent to accounts@kestrelbay.example.
+- Invoices without a valid PO number will be returned unpaid.
+
+Authorised by: N. Brennan, Finance Director         Signature: [signed]
+Approval check: order over 10,000 GBP - Finance Director approval required - OK
+
+[handwritten] chased Karen 9/4 - confirmed despatch 15/4. FL

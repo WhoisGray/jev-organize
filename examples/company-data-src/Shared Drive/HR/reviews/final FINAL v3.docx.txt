@@ -1,0 +1,33 @@
+# Annual Performance Review 2025-26 - CONFIDENTIAL
+Version 3 (final, after calibration meeting). Earlier drafts deleted.
+Employee: Ravi Menon (employee no. KB-0142)
+Job title: E-commerce Developer
+Team: Product & Digital
+Reviewer: Tom Albright, Product Director
+Review period: 1 July 2025 to 30 June 2026
+Review meeting held: 8 July 2026
+# Overall rating
+4 out of 5 - Strong performance, exceeds expectations in several areas.
+# Achievements this year
+Rebuilt the web shop checkout, reducing checkout abandonment from 71% to 63% and average page load from 3.1 seconds to 1.7 seconds.
+Wrote the nightly stock sync between the warehouse system and the web shop, which ended most of the "in stock online, out of stock in the warehouse" complaints.
+Led the technical response to the hosting outage on 14 June. Service was restored in 47 minutes and customers were kept informed on the status banner.
+Mentored Sam Adeyemi on analytics tagging and data layer set-up.
+# Areas to develop
+Documentation: several scripts, including the stock sync, have no runbook. Owen had to reverse-engineer the sync during Ravi's leave in April.
+Estimation: the product filter project was estimated at 3 weeks and took 7. Break work into smaller pieces and flag slippage early.
+Code review: reviews are thorough but slow (average 3.5 days). Target under 2 working days.
+# Objectives for 2026-27
+1. Deliver the web replatform discovery and a costed recommendation by 30 November 2026.
+2. Write runbooks for all production scripts, stored in the IT folder, by 30 September 2026.
+3. Support the Ridgeback 2P launch pages and pre-order flow, live by 15 January 2027.
+4. Complete the secure coding course (2 days) by the end of Q4.
+# Pay and grade
+Current salary: £45,000. Recommended salary: £47,250 (5.0% increase) from 1 August 2026, grade P3 to P3+. Approved by Helen Marsh and Nadia Brennan in the calibration meeting.
+Bonus for 2025-26: 6% of salary (£2,700), paid with the August payroll.
+# Employee comments
+Ravi: I agree with the rating. I would like to spend 20% of my time on the replatform work and to attend one external conference next year. I feel the on-call arrangement for weekends needs a rota, as I covered 9 of the last 12 weekend incidents.
+# Reviewer comments
+Tom: Agreed to set up a weekend support rota with Owen by the end of August. Conference budget up to £900 approved.
+# Signatures
+Employee: R. Menon   Reviewer: T. Albright   People team: S. Whitlock

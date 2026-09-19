@@ -1,0 +1,190 @@
+{
+  "ran_at": "2026-09-19T16:11:57.052Z",
+  "answered_by": [
+    "typesafe/jev-1.13-20260917"
+  ],
+  "company_detected": "Kestrel Bay Supplies Ltd",
+  "names_only": true,
+  "usage": {
+    "this_run": {
+      "calls": 59,
+      "input_tokens": 138699,
+      "cost_usd": 0.005825,
+      "seconds": 3.574
+    },
+    "classification": {
+      "files_sent": 59,
+      "cost_usd": 0.005825,
+      "cost_per_1000_files_usd": 0.0987
+    }
+  },
+  "metrics": {
+    "files": 61,
+    "department": {
+      "correct": 50,
+      "of": 56,
+      "pct": 89.3
+    },
+    "department_when_not_in_review": {
+      "correct": 49,
+      "of": 54,
+      "pct": 90.7
+    },
+    "type": {
+      "correct": 47,
+      "of": 56,
+      "pct": 83.9
+    },
+    "type_when_not_in_review": {
+      "correct": 47,
+      "of": 54,
+      "pct": 87
+    },
+    "sensitivity_exact": {
+      "correct": 36,
+      "of": 56,
+      "pct": 64.3
+    },
+    "sensitivity_within_one_level": {
+      "correct": 47,
+      "of": 56,
+      "pct": 83.9
+    },
+    "restricted_recall": {
+      "correct": 6,
+      "of": 8,
+      "pct": 75
+    },
+    "restricted_precision": {
+      "correct": 6,
+      "of": 21,
+      "pct": 28.6
+    },
+    "date": {
+      "correct": 17,
+      "of": 56,
+      "pct": 30.4
+    },
+    "date_when_labelled": {
+      "correct": 0,
+      "of": 39,
+      "pct": 0
+    },
+    "counterparty": {
+      "correct": 42,
+      "of": 56,
+      "pct": 75
+    },
+    "counterparty_when_labelled": {
+      "correct": 0,
+      "of": 14,
+      "pct": 0
+    },
+    "noise_found": {
+      "correct": 3,
+      "of": 3,
+      "pct": 100
+    },
+    "noise_false_alarms": [],
+    "duplicates_found": {
+      "correct": 2,
+      "of": 2,
+      "pct": 100
+    },
+    "sent_to_review": {
+      "correct": 2,
+      "of": 56,
+      "pct": 3.6
+    }
+  },
+  "misses": [
+    "date        Board/Board minutes 2026-03-19.docx: null expected 2026-03-19",
+    "date        Board/investor update H1 2026.md: null expected 2026-07-24",
+    "date        Board/Q2 board deck.pptx: null expected 2026-07-16",
+    "date        Desktop/all hands july.pptx: null expected 2026-07-30",
+    "date        Desktop/Brightwater proposal DRAFT.docx: null expected 2026-05-20",
+    "counterparty Desktop/Brightwater proposal DRAFT.docx: null expected Brightwater Retail Group",
+    "department  Desktop/notes.txt: other (0.99) expected operations",
+    "type        Desktop/notes.txt: other (0.47) expected meeting-notes",
+    "date        Desktop/notes.txt: null expected 2026-06-15",
+    "department  Downloads/export (2).csv: other (0.61) expected hr",
+    "sensitivity Downloads/export (2).csv: internal expected restricted",
+    "department  Downloads/holiday photos list.txt: other (0.98) expected legal",
+    "type        Downloads/holiday photos list.txt: other (0.78) expected contract",
+    "sensitivity Downloads/holiday photos list.txt: internal expected confidential",
+    "date        Downloads/holiday photos list.txt: null expected 2026-06-16",
+    "counterparty Downloads/holiday photos list.txt: null expected Oakridge Logistics Ltd",
+    "date        Downloads/Re_ stand deposit - Outdoor Trade Expo.eml: null expected 2026-03-17",
+    "counterparty Downloads/Re_ stand deposit - Outdoor Trade Expo.eml: null expected Wrenfield Events Ltd",
+    "sensitivity Downloads/Your receipt from Harbourside Print Studio.eml: restricted expected internal",
+    "date        Downloads/Your receipt from Harbourside Print Studio.eml: null expected 2026-08-13",
+    "counterparty Downloads/Your receipt from Harbourside Print Studio.eml: null expected Harbourside Print Studio Ltd",
+    "sensitivity from Sarah/FW_ Order KB-58213 - tent pole snapped.eml: restricted expected confidential",
+    "date        from Sarah/FW_ Order KB-58213 - tent pole snapped.eml: null expected 2026-08-03",
+    "date        from Sarah/NDA Cairn & Co.docx: null expected 2026-02-10",
+    "counterparty from Sarah/NDA Cairn & Co.docx: null expected Cairn & Co Outfitters",
+    "date        from Sarah/offer letter - T Okafor.docx: null expected 2026-08-21",
+    "sensitivity IT/backup.ini: restricted expected internal",
+    "sensitivity IT/incident report 2026-05-14 phishing.md: internal expected confidential",
+    "date        IT/incident report 2026-05-14 phishing.md: null expected 2026-05-15",
+    "sensitivity IT/invoice_PCS-88412.pdf: restricted expected confidential",
+    "date        IT/invoice_PCS-88412.pdf: null expected 2026-06-30",
+    "counterparty IT/invoice_PCS-88412.pdf: null expected Pelham Cloud Services Ltd",
+    "sensitivity IT/IT Security Policy 2026.pdf: restricted expected internal",
+    "date        IT/IT Security Policy 2026.pdf: null expected 2026-01-20",
+    "sensitivity IT/logs/web-01 error.log: restricted expected internal",
+    "type        IT/server setup notes.txt: specification (0.49) expected policy-procedure",
+    "date        IT/server setup notes.txt: null expected 2026-02-17",
+    "type        IT/software_licences.json: source-code (0.93) expected dataset",
+    "sensitivity IT/software_licences.json: confidential expected internal",
+    "date        IT/software_licences.json: null expected 2026-08-31",
+    "date        old stuff/lease.pdf: null expected 2025-09-12",
+    "counterparty old stuff/lease.pdf: null expected Quayline Property Holdings Ltd",
+    "department  old stuff/scan_0041.pdf: other (0.84) expected finance",
+    "type        old stuff/scan_0041.pdf: other (0.77) expected invoice",
+    "sensitivity old stuff/scan_0041.pdf: restricted expected confidential",
+    "date        old stuff/scan_0041.pdf: null expected 2025-11-14",
+    "counterparty old stuff/scan_0041.pdf: null expected Cairn & Co Outfitters",
+    "department  scans/scan_0052.pdf: other (0.83) expected operations",
+    "type        scans/scan_0052.pdf: other (0.8) expected purchase-order",
+    "sensitivity scans/scan_0052.pdf: restricted expected confidential",
+    "date        scans/scan_0052.pdf: null expected 2026-03-24",
+    "counterparty scans/scan_0052.pdf: null expected Northfell Textiles Ltd",
+    "department  scans/scan_0057.pdf: other (0.84) expected finance",
+    "type        scans/scan_0057.pdf: other (0.82) expected invoice",
+    "sensitivity scans/scan_0057.pdf: restricted expected confidential",
+    "date        scans/scan_0057.pdf: null expected 2026-05-12",
+    "counterparty scans/scan_0057.pdf: null expected Tidewell Packaging GmbH",
+    "sensitivity Shared Drive/Finance/INV-2026-0418 Northfell.pdf: restricted expected confidential",
+    "date        Shared Drive/Finance/INV-2026-0418 Northfell.pdf: null expected 2026-04-18",
+    "counterparty Shared Drive/Finance/INV-2026-0418 Northfell.pdf: null expected Northfell Textiles Ltd",
+    "sensitivity Shared Drive/Finance/templates/Expense claim form.docx: restricted expected internal",
+    "date        Shared Drive/Finance/VAT/VAT return Q1 2026 summary.pdf: null expected 2026-05-07",
+    "sensitivity Shared Drive/HR/contracts/Employment contract - D Hughes.pdf: confidential expected restricted",
+    "date        Shared Drive/HR/contracts/Employment contract - D Hughes.pdf: null expected 2025-10-06",
+    "date        Shared Drive/HR/Employee Handbook 2026 - sections 4-7.txt: null expected 2026-02-01",
+    "date        Shared Drive/HR/reviews/final FINAL v3.docx: null expected 2026-07-08",
+    "sensitivity Shared Drive/Legal/Data Retention Policy v2.md: restricted expected internal",
+    "date        Shared Drive/Legal/Data Retention Policy v2.md: null expected 2026-01-14",
+    "date        Shared Drive/Legal/Supplier Agreement - Northfell Textiles (signed).pdf: null expected 2026-03-02",
+    "counterparty Shared Drive/Legal/Supplier Agreement - Northfell Textiles (signed).pdf: null expected Northfell Textiles Ltd",
+    "date        Shared Drive/Marketing/AW26 campaign plan.md: null expected 2026-06-03",
+    "date        Shared Drive/Marketing/press/PR_Avonmouth_warehouse_FINAL.txt: null expected 2026-02-09",
+    "date        Shared Drive/misc/OKRs Q3 2026.md: null expected 2026-07-02",
+    "sensitivity Shared Drive/Operations/SOP - goods in.md: restricted expected internal",
+    "date        Shared Drive/Operations/SOP - goods in.md: null expected 2026-03-03",
+    "type        Shared Drive/Operations/stock report wk24.xlsx: dataset (0.97) expected report-analysis",
+    "date        Shared Drive/Product/Ridgeback 2P tent spec v1.2.docx: null expected 2026-04-02",
+    "date        Shared Drive/Product/roadmap.md: null expected 2026-07-28",
+    "date        Shared Drive/Sales/Brightwater proposal AW26 FINAL.docx: null expected 2026-05-27",
+    "counterparty Shared Drive/Sales/Brightwater proposal AW26 FINAL.docx: null expected Brightwater Retail Group",
+    "date        Shared Drive/Sales/Cairn & Co range review AW26.pptx: null expected 2026-06-09",
+    "counterparty Shared Drive/Sales/Cairn & Co range review AW26.pptx: null expected Cairn & Co Outfitters",
+    "sensitivity Shared Drive/Sales/crm_leads_export_2026-07-01.csv: restricted expected confidential",
+    "date        website/careers/warehouse-team-leader.html: null expected 2026-08-03",
+    "sensitivity website/deploy/config.yaml: restricted expected internal",
+    "type        website/help/returns-faq.html: marketing-content (0.99) expected policy-procedure",
+    "date        website/help/returns-faq.html: null expected 2026-08-04",
+    "date        website/newsletter/2026-06-newsletter.html: null expected 2026-06-11"
+  ]
+}

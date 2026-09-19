@@ -1,0 +1,40 @@
+KESTREL BAY SUPPLIES LTD - VAT RETURN SUMMARY
+VAT registration number: GB 318 4471 26
+
+Period:              01/01/2026 to 31/03/2026 (quarter ref 03 26)
+Scheme:              standard accounting, quarterly, Making Tax Digital
+Prepared by:         Chloe Danes, Finance Assistant
+Reviewed by:         Nadia Brennan, Finance Director
+Submitted:           7 May 2026 via LedgerLeaf MTD bridge
+Submission receipt:  MTD-7731-0426-KBS
+Payment:             by Direct Debit, collected 12 May 2026
+
+Box  Description                                                         GBP
+1    VAT due on sales and other outputs                           188,839.40
+2    VAT due on acquisitions (Northern Ireland only)                    0.00
+3    Total VAT due (box 1 + box 2)                                188,839.40
+4    VAT reclaimed on purchases and other inputs                  118,904.72
+5    Net VAT to pay                                                69,934.68
+6    Total value of sales and outputs, excluding VAT              991,640
+7    Total value of purchases and inputs, excluding VAT           612,480
+8    Total value of supplies of goods (Northern Ireland only)           0
+9    Total value of acquisitions of goods (Northern Ireland only)       0
+
+Reconciliation notes
+- Box 6 includes zero-rated export sales of 41,380 GBP (retailers in Ireland and
+  Norway) and 5,240 GBP of carriage recharged to trade customers.
+- Box 6 reconciles to Q1 revenue in the management accounts (986,400 GBP) plus
+  carriage recharges, less the credit notes below.
+- Box 1 reconciles to the VAT control account (nominal 2200) after adjusting for
+  1,212.60 GBP of output VAT on credit notes CN-0114 to CN-0121.
+- Box 4 includes 2,184.00 GBP import VAT under postponed VAT accounting on the
+  Tidewell carton deliveries, and 17,000 GBP on Avonmouth racking and fit-out.
+- No bad debt relief claimed this quarter.
+
+Movement against the previous quarter (Q4 2025)
+- Output VAT down 31% (seasonal; Q4 includes Christmas trade orders).
+- Input VAT up 9% because of the warehouse fit-out.
+
+Sign-off
+I confirm the figures above agree to the ledger and to the MTD submission.
+N. Brennan, Finance Director, 7 May 2026

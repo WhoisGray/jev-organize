@@ -1,0 +1,23 @@
+{
+  "name": "jev-organize",
+  "version": "0.1.0",
+  "description": "Throw in a pile of company files and get them classified and organized: department, type, sensitivity, date, counterparty and PII. Powered by TypeSafe's Jev decision model on OpenRouter.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Jeroen Erne (https://www.linkedin.com/in/jeroenerne/)",
+  "homepage": "https://github.com/nexibeo/jev-organize#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/nexibeo/jev-organize.git" },
+  "bugs": "https://github.com/nexibeo/jev-organize/issues",
+  "keywords": ["jev", "typesafe", "openrouter", "document-classification", "data-classification", "file-organizer", "records-management", "data-governance", "pii-detection", "claude-skill", "codex", "agents-md"],
+  "engines": { "node": ">=22.9" },
+  "bin": { "jev-organize": "bin/jev-organize.mjs" },
+  "files": ["bin", "src", "skills", ".codex", "AGENTS.md", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "examples": "node scripts/make-examples.mjs",
+    "demo": "node --env-file-if-exists=.env bin/jev-organize.mjs scan examples/company-data --out out/demo --apply",
+    "evaluate": "node --env-file-if-exists=.env scripts/evaluate.mjs --no-cache"
+  }
+}

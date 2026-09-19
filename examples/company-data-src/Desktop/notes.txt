@@ -1,0 +1,38 @@
+Weekly ops meeting - Monday 15 June 2026, 08:45, Avonmouth meeting room + call
+Present: Sarah Whitlock (chair), Dave Kinsella, Megan Tulloch, James Corrigan, Owen Pryce,
+Frankie Lowe. Notes: SW
+
+1. Dispatch / backlog
+- Backlog 212 orders at 08:00 after the carrier van breakdown on Friday. Cleared by
+  11:00 with a second collection at 12:00.
+- Last week: 5,214 orders out, 97.6% same/next day. Carrier on-time 96.2% - again
+  under the 98.5% SLA. SW to raise at the contract review before the new contract
+  starts on 1 July.
+- Heatwave: chair and stove sales up 60%. DW-CHR only 0.9 weeks cover.
+  ACTION FL: price air freight for 150 chairs by Wed.
+
+2. Stock
+- Tarn 45L slate OUT, 64 backorders. PO-1196 arrives 19 June. Megan's team emailed
+  all backorder customers on 10 June.
+- Kestrel Lite -5 bags overstocked (17 weeks cover). ACTION JC: agree with Ellie
+  whether they go in the summer sale.
+- Packaging: cartons fine, paper tape low. ACTION FL: add tape to next carton PO.
+
+3. Customer support
+- 1,120 tickets last week (up 18%). Top reasons: where is my order (38%), returns (21%),
+  product questions (14%).
+- 3 complaints about Fellwalker 3 poles snapping - all from the March batch. Megan to
+  log batch numbers. ACTION DK: quarantine remaining March-batch poles for QC check.
+- Weekend cover: Daniel and Hannah on the Saturday rota until end of August.
+
+4. IT
+- Hosting outage Sunday 14 June, 47 minutes, web shop showing errors. Hosting provider
+  says load balancer failover. Owen chasing an SLA credit.
+- MFA roll-out: 34 of 41 users done. Warehouse kiosk still on shared login (allowed).
+- Reminder: nobody keeps passwords in notes files - Owen found two last month.
+
+5. AOB
+- Warehouse Team Leader job ad to go live early August (SW).
+- Fire drill Thursday 18 June at 10:00.
+
+Next meeting: Monday 22 June 2026, same time.

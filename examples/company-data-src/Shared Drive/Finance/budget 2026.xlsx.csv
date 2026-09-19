@@ -1,0 +1,21 @@
+Section,Line,Q1 2026,Q2 2026,Q3 2026,Q4 2026,FY2026 total,Owner,Notes
+Income,Revenue - Online (DTC),500000,800000,860000,840000,3000000,Ellie Fairbrother,"Assumes 2.1% site conversion, AOV £84"
+Income,Revenue - Wholesale,380000,600000,660000,560000,2200000,James Corrigan,Includes Brightwater listing from Sep (£128k)
+Income,Revenue - Marketplaces,100000,140000,150000,160000,550000,James Corrigan,Two marketplaces; fee 15% in fees line
+Income,Total revenue,980000,1540000,1670000,1560000,5750000,,
+Direct costs,Cost of goods sold,460600,723800,784900,733200,2702500,Sarah Whitlock,47% of revenue; Northfell prices fixed to Mar-27
+Direct costs,Gross profit,519400,816200,885100,826800,3047500,,53% target margin
+Overheads,Staff costs (incl. NI and pension),352000,364000,372000,380000,1468000,Sarah Whitlock,40 FTE rising to 43; 3.5% pay review Jul
+Overheads,Warehouse and premises,52500,52500,52500,52500,210000,Sarah Whitlock,Avonmouth unit + Quayside office
+Overheads,Outbound delivery and fulfilment,53900,84700,91850,85800,316250,Sarah Whitlock,Oakridge rates; 5.5% of revenue
+Overheads,Marketing and advertising,70000,110000,115000,125000,420000,Ellie Fairbrother,AW26 campaign Q3-Q4
+Overheads,Marketplace and payment fees,18000,28200,30300,30000,106500,Nadia Brennan,3% of DTC + marketplace
+Overheads,"IT, hosting and software",30000,30000,30000,30000,120000,Owen Pryce,"Hosting, licences, laptops under £1k"
+Overheads,Professional fees,18000,12000,12000,14000,56000,Nadia Brennan,Audit Q1; legal
+Overheads,Travel and trade shows,9000,7000,18000,6000,40000,James Corrigan,Outdoor Trade Expo Sep
+Overheads,Other admin,17000,17000,17000,17000,68000,Nadia Brennan,"Insurance, bank charges, sundries"
+Overheads,Total overheads,620400,705400,738650,740300,2804750,,
+Result,EBITDA,-101000,110800,146450,86500,242750,,
+Result,Depreciation,16200,16200,16200,16200,64800,Nadia Brennan,Racking over 10 yrs; IT over 3 yrs
+Result,Operating profit,-117200,94600,130250,70300,177950,,
+Memo,Memo: capex,85000,0,40000,0,125000,Nadia Brennan,Racking Q1; web replatform Q3

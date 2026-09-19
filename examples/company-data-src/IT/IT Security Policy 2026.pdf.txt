@@ -1,0 +1,56 @@
+KESTREL BAY SUPPLIES LTD
+IT SECURITY POLICY                                  Document IT-POL-01, version 3.0
+
+Owner:        Owen Pryce, IT & Systems Manager
+Approved by:  Helen Marsh, Chief Executive
+Approved on:  20 January 2026
+Next review:  January 2027
+Applies to:   all employees, contractors and temporary staff
+
+1. Purpose
+This policy sets the minimum rules for using company systems, devices and data.
+Breaches may lead to disciplinary action.
+
+2. Accounts and passwords
+- Every user has a named account. Shared logins are not allowed, except the
+  warehouse scanner kiosk account, which can only reach the WMS.
+- Passwords must be at least 14 characters. Use the company password manager.
+- Multi-factor authentication (MFA) is required for email, the finance system,
+  the web shop admin and remote access.
+- Never write passwords in documents, spreadsheets, chat messages or notes files.
+
+3. Devices
+- Only company laptops may be used to access finance and HR systems.
+- Full-disk encryption and automatic screen lock (5 minutes) are required.
+- Security updates must be installed within 14 days of release.
+- Report lost or stolen devices to IT within 1 hour.
+
+4. Email and phishing
+- Treat any request to change supplier bank details as suspicious. Always call the
+  supplier back on the number in our records before changing anything.
+- Report suspicious emails with the "Report phishing" button.
+- All staff complete phishing awareness training every 6 months.
+
+5. Access control
+- Access follows least privilege and is approved by the line manager.
+- Leavers' accounts are disabled on their last working day.
+- Payroll and HR folders are limited to the People team and the Finance Director.
+- IT reviews admin rights every quarter.
+
+6. Data handling
+- Files are classified as public, internal, confidential or restricted.
+- Restricted data (personal data, salaries, bank and card details, credentials)
+  stays in approved systems and must not be sent to personal email addresses.
+- USB storage devices are blocked by default.
+
+7. Backups
+- Servers and the shared drive are backed up every night; backups are kept 30 days.
+- A test restore is done every quarter and logged.
+
+8. Incidents
+- Report security incidents at once to it@kestrelbay.example or 0117 496 0740.
+- IT logs every incident and writes an incident report within 2 working days.
+
+9. Remote working
+- Use the company VPN on untrusted networks. Do not work on confidential
+  documents in public places where screens can be overlooked.

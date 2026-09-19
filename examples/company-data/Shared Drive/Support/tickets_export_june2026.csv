@@ -1,0 +1,22 @@
+ticket_id,created,channel,customer_id,order_no,category,subject,priority,status,assigned_to,first_response_hrs,resolved,csat
+T-58801,2026-06-01 08:14,email,C-104233,KB-57120,Where is my order,Order not arrived after 4 days,Normal,Solved,Hannah Doyle,1.2,2026-06-01,5
+T-58812,2026-06-01 09:40,chat,C-099812,KB-57188,Product question,Will the Tarn 45L fit carry-on size?,Low,Solved,Daniel Hughes,0.1,2026-06-01,5
+T-58830,2026-06-02 11:02,phone,C-110457,KB-57301,Returns,Return label not received,Normal,Solved,Daniel Hughes,0.0,2026-06-02,4
+T-58877,2026-06-03 16:25,email,C-087731,KB-56904,Faulty item,Fellwalker 3 pole snapped - March batch,High,Solved,Megan Tulloch,3.5,2026-06-05,4
+T-58903,2026-06-04 07:55,email,C-111902,KB-57422,Where is my order,Tracking shows delivered but not received,High,Solved,Hannah Doyle,2.1,2026-06-09,2
+T-58941,2026-06-05 13:10,chat,C-112030,,Pre-sales,Discount for scout group bulk order?,Low,Solved,Daniel Hughes,0.2,2026-06-05,5
+T-58990,2026-06-08 10:47,email,C-095570,KB-57560,Refund,Refund not showing after 7 days,Normal,Solved,Hannah Doyle,4.8,2026-06-09,3
+T-59022,2026-06-09 12:31,phone,C-113114,KB-57611,Delivery damage,Stove box crushed in transit,Normal,Solved,Daniel Hughes,0.0,2026-06-10,5
+T-59048,2026-06-10 09:05,email,C-102288,KB-57203,Backorder,When will Tarn 45L slate be back?,Normal,Solved,Megan Tulloch,1.0,2026-06-10,4
+T-59110,2026-06-11 15:44,email,C-090014,KB-55978,Faulty item,Fellwalker 3 pole snapped on first pitch,High,Solved,Megan Tulloch,2.9,2026-06-12,5
+T-59163,2026-06-13 10:12,chat,C-114420,KB-57790,Where is my order,Order stuck at depot,Normal,Solved,Hannah Doyle,0.3,2026-06-15,3
+T-59201,2026-06-14 07:30,email,C-114598,,Website,Site down - could not pay,High,Solved,Megan Tulloch,5.2,2026-06-15,3
+T-59208,2026-06-14 07:41,email,C-108867,KB-57854,Website,Charged twice at checkout,Urgent,Solved,Megan Tulloch,4.9,2026-06-15,4
+T-59255,2026-06-16 11:20,phone,C-101746,KB-57902,Returns,Exchange sleeping bag for long size,Low,Solved,Daniel Hughes,0.0,2026-06-16,5
+T-59301,2026-06-17 14:02,email,C-115210,KB-57988,Faulty item,Zip broken on Stormshell jacket,Normal,Solved,Hannah Doyle,2.2,2026-06-19,4
+T-59340,2026-06-19 09:58,chat,C-115377,,Product question,Is the Emberlite 2 allowed on flights?,Low,Solved,Daniel Hughes,0.1,2026-06-19,
+T-59388,2026-06-22 08:40,email,C-093301,KB-58031,Faulty item,Fellwalker 3 pole snapped - wants refund not repair,High,Pending,Megan Tulloch,3.1,,
+T-59419,2026-06-24 16:15,email,C-116002,KB-58104,Where is my order,Next-day order took 3 days,Normal,Solved,Hannah Doyle,1.7,2026-06-25,2
+T-59466,2026-06-26 10:33,phone,C-116251,KB-58122,Warranty,Old tent (2021) pole replacement,Low,Solved,Daniel Hughes,0.0,2026-06-29,5
+T-59502,2026-06-29 12:09,email,C-099812,KB-58190,Returns,Return window question - bought as gift,Low,Solved,Hannah Doyle,1.4,2026-06-29,5
+T-59537,2026-06-30 17:52,email,C-116890,,Pre-sales,Which tent for 2 adults and a dog?,Low,Solved,Daniel Hughes,0.9,2026-07-01,5

@@ -1,0 +1,7 @@
+{
+  "name": "jev-organize",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "Bundled copy of jev-organize for the skill. Do not edit: run npm run build in the repo."
+}

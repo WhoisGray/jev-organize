@@ -1,0 +1,21 @@
+SKU,Product,Bin zone,On hand,Allocated,Available,On order,PO ref,ETA,Avg weekly sales (4 wk),Weeks cover,Status,Comment
+FW3-GRN,"Fellwalker 3 tent, forest green",A-01,412,138,274,600,PO-1192,03/07/2026,96,2.9,LOW,Re-run from Northfell fabric delivered 16/04; factory slot confirmed
+FW3-OLV,"Fellwalker 3 tent, olive",A-02,188,22,166,0,,,18,9.2,OK,
+TARN45-SL,"Tarn 45L rucksack, slate",B-04,0,64,-64,900,PO-1196,19/06/2026,71,0.0,OUT,Backorders 64 - customers emailed 10/06
+TARN45-RD,"Tarn 45L rucksack, rust",B-05,356,20,336,0,,,24,14.0,OK,
+KL5-REG,"Kestrel Lite -5 sleeping bag, regular",C-02,1122,96,1026,0,,,58,17.7,OVERSTOCK,Consider summer sale inclusion
+KL5-LNG,"Kestrel Lite -5 sleeping bag, long",C-03,301,14,287,0,,,11,26.1,OVERSTOCK,
+EMB-STV2,Emberlite 2 gas stove,D-01,845,210,635,1200,PO-1201,24/06/2026,184,3.5,OK,Brightwater allocation not yet included
+EMB-GAS4,Emberlite gas cartridge 230g x4,D-02,0,0,0,0,,,0,,DISCONTINUED,Hazmat - no longer carried
+SS-JKT-M,"Stormshell jacket, men's",E-10,634,48,586,0,,,39,15.0,OK,Sizes L and XL overstocked
+SS-JKT-W,"Stormshell jacket, women's",E-11,508,52,456,0,,,44,10.4,OK,
+DW-CHR,Driftwood camp chair,F-03,96,41,55,500,PO-1199,26/06/2026,62,0.9,LOW,Heatwave demand - consider air freight for 150
+RB2-SMP,"Ridgeback 2P sample 0 (pre-production)",QC,4,4,0,0,,,0,,SAMPLE,Not for sale - round 1 samples due 22/06
+PKG-BX4020,Carton 400x300x200,PK-1,2140,0,2140,0,,,410,5.2,OK,Last Tidewell delivery received 06/05 (PO-1203) - reorder at 1500
+PKG-BX6040,Carton 600x400x400,PK-2,960,0,960,0,,,95,10.1,OK,
+PKG-TAPE50,Paper tape 50mm,PK-3,112,0,112,0,,,31,3.6,LOW,Reorder with next carton PO
+Summary,,,,,,,,,,,,
+Orders dispatched this week,,,5214,,,,,,,,,
+Dispatched same/next day,,,97.6%,,,,,,,,,
+Carrier on-time (this week),,,96.2%,,,,,,,,,Below 98.5% SLA - raised with carrier account manager
+Returns received,,,318,,,,,,,,,

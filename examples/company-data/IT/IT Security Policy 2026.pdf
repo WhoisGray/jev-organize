@@ -1,0 +1,97 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Length 3005 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+50 800 Td
+(KESTREL BAY SUPPLIES LTD) Tj
+T* (IT SECURITY POLICY                                  Document IT-POL-01, version 3.0) Tj
+T* () Tj
+T* (Owner:        Owen Pryce, IT & Systems Manager) Tj
+T* (Approved by:  Helen Marsh, Chief Executive) Tj
+T* (Approved on:  20 January 2026) Tj
+T* (Next review:  January 2027) Tj
+T* (Applies to:   all employees, contractors and temporary staff) Tj
+T* () Tj
+T* (1. Purpose) Tj
+T* (This policy sets the minimum rules for using company systems, devices and data.) Tj
+T* (Breaches may lead to disciplinary action.) Tj
+T* () Tj
+T* (2. Accounts and passwords) Tj
+T* (- Every user has a named account. Shared logins are not allowed, except the) Tj
+T* (  warehouse scanner kiosk account, which can only reach the WMS.) Tj
+T* (- Passwords must be at least 14 characters. Use the company password manager.) Tj
+T* (- Multi-factor authentication \(MFA\) is required for email, the finance system,) Tj
+T* (  the web shop admin and remote access.) Tj
+T* (- Never write passwords in documents, spreadsheets, chat messages or notes files.) Tj
+T* () Tj
+T* (3. Devices) Tj
+T* (- Only company laptops may be used to access finance and HR systems.) Tj
+T* (- Full-disk encryption and automatic screen lock \(5 minutes\) are required.) Tj
+T* (- Security updates must be installed within 14 days of release.) Tj
+T* (- Report lost or stolen devices to IT within 1 hour.) Tj
+T* () Tj
+T* (4. Email and phishing) Tj
+T* (- Treat any request to change supplier bank details as suspicious. Always call the) Tj
+T* (  supplier back on the number in our records before changing anything.) Tj
+T* (- Report suspicious emails with the "Report phishing" button.) Tj
+T* (- All staff complete phishing awareness training every 6 months.) Tj
+T* () Tj
+T* (5. Access control) Tj
+T* (- Access follows least privilege and is approved by the line manager.) Tj
+T* (- Leavers' accounts are disabled on their last working day.) Tj
+T* (- Payroll and HR folders are limited to the People team and the Finance Director.) Tj
+T* (- IT reviews admin rights every quarter.) Tj
+T* () Tj
+T* (6. Data handling) Tj
+T* (- Files are classified as public, internal, confidential or restricted.) Tj
+T* (- Restricted data \(personal data, salaries, bank and card details, credentials\)) Tj
+T* (  stays in approved systems and must not be sent to personal email addresses.) Tj
+T* (- USB storage devices are blocked by default.) Tj
+T* () Tj
+T* (7. Backups) Tj
+T* (- Servers and the shared drive are backed up every night; backups are kept 30 days.) Tj
+T* (- A test restore is done every quarter and logged.) Tj
+T* () Tj
+T* (8. Incidents) Tj
+T* (- Report security incidents at once to it@kestrelbay.example or 0117 496 0740.) Tj
+T* (- IT logs every incident and writes an incident report within 2 working days.) Tj
+T* () Tj
+T* (9. Remote working) Tj
+T* (- Use the company VPN on untrusted networks. Do not work on confidential) Tj
+T* (  documents in public places where screens can be overlooked.) Tj
+T* () Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Title (IT Security Policy 2026) >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000212 00000 n 
+0000003269 00000 n 
+0000003395 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R /Info 6 0 R >>
+startxref
+3449
+%%EOF

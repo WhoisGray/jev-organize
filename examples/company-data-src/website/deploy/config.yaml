@@ -1,0 +1,64 @@
+# Web shop deployment config - kestrelbay.example
+# Owner: Ravi Menon. Secrets are NOT stored here; they are injected from the
+# hosting secret store at deploy time (see names under `secrets:`).
+
+app:
+  name: kbs-webshop
+  version: 4.12.0
+  runtime: node20
+  timezone: Europe/London
+  currency: GBP
+  locales: [en-GB]
+
+environments:
+  production:
+    domain: www.kestrelbay.example
+    replicas: 3
+    min_replicas: 2
+    max_replicas: 8
+    autoscale_cpu_percent: 65
+    database: kbs-prod-pg
+    cdn: true
+  staging:
+    domain: staging.kestrelbay.example
+    replicas: 1
+    database: kbs-staging-pg
+    cdn: false
+    basic_auth: true
+
+images:
+  sizes: [320, 640, 1024, 1600]
+  formats: [avif, webp, jpg]
+  quality: 78
+
+checkout:
+  free_delivery_threshold_gbp: 50
+  delivery_options:
+    - { code: STD, label: "Standard (2-3 working days)", price_gbp: 3.95 }
+    - { code: NXT, label: "Next working day", price_gbp: 6.95 }
+    - { code: HLI, label: "Highlands and islands", price_gbp: 9.95 }
+  returns_window_days: 60
+  vat_rounding: per_line   # changed from per_order in 4.11 (see ticket 412)
+
+features:
+  pre_orders: false        # switch on for Ridgeback 2P in January
+  product_qa: false
+  retailer_stock_feed: true
+  live_chat: true
+  reviews_widget: true
+
+stock_sync:
+  schedule: "30 2 * * *"
+  source: wms_export
+  safety_buffer_default: 2
+
+monitoring:
+  uptime_check_url: https://www.kestrelbay.example/healthz
+  alert_email: it@kestrelbay.example
+  error_rate_alert_percent: 2
+
+secrets:
+  - SHOP_DB_URL
+  - PAYMENT_WEBHOOK_SECRET
+  - KBS_SHOP_TOKEN
+  - EMAIL_API_KEY

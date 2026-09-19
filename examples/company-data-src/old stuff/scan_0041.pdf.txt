@@ -1,0 +1,44 @@
+[scanned document - page 1 of 1]
+
+KESTREL BAY SUPPLIES LTD
+14 Quayside Lane, Bristol BS1 6XJ
+accounts@kestrelbay.example | 0117 496 0721 | www.kestrelbay.example
+VAT Reg No: GB 318 4471 26 | Registered in England No. 11482730
+
+SALES INVOICE
+
+Invoice No:      INV-KBS-2025-0877
+Invoice date:    14 November 2025
+Customer PO:     CC-PO-5521
+Account no:      CAI-0032
+Terms:           30 days net
+Sales contact:   Ben Hollis
+
+Invoice to:                          Deliver to:
+Cairn & Co Outfitters                Cairn & Co Outfitters - Central DC
+Accounts Payable                     Unit 12, Greta Bridge Estate
+27 Lake View Road                    Penrith CA11 9EJ
+Keswick CA12 5DQ
+
+Qty  SKU         Description                          Unit GBP    Line GBP
+24   FW3-GRN     Fellwalker 3 tent, forest green        142.00    3,408.00
+36   TARN45-SL   Tarn 45L rucksack, slate                48.50    1,746.00
+60   EMB-STV2    Emberlite 2 gas stove                   17.25    1,035.00
+40   KL5-REG     Kestrel Lite -5 sleeping bag, reg.      39.90    1,596.00
+                                           Goods total            7,785.00
+                 Trade discount 8% (volume tier B)                 -622.80
+                                           Net                    7,162.20
+                                           VAT @ 20%              1,432.44
+                                           TOTAL (GBP)            8,594.64
+
+Payment due: 14 December 2025
+Please pay by BACS quoting INV-KBS-2025-0877. Bank details as per your
+supplier record for Kestrel Bay Supplies Ltd.
+
+Goods remain the property of Kestrel Bay Supplies Ltd until paid in full.
+Late payment interest may be charged at 8% above base rate on overdue sums.
+
+Thank you for your order - AW25 replenishment delivery 2 of 3.
+
+[stamp] RECEIVED 17 NOV 2025
+[handwritten] pd 09/12 - CD   filed w/ Q4 remittances

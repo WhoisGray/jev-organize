@@ -1,0 +1,40 @@
+ops-01 / web shop back end - setup notes (rebuild procedure)
+Written 2026-02-17 by Owen after the Avonmouth move. Keep this up to date!!
+TODO: move all of the below into the password manager and delete this file.
+
+Servers
+- ops-01      10.20.1.5    Ubuntu 24.04 LTS  - cron jobs, stock sync, backups
+- web-01..03  10.20.1.11-13 (managed containers at the hosting provider)
+- db          kbs-prod-pg (managed PostgreSQL, 4 vCPU / 16 GB)
+- wms-gw      10.30.0.2    Avonmouth, VPN site-to-site to the hosting VPC
+
+Rebuild steps for ops-01
+1. Create VM from template ubuntu-24-base, 2 vCPU / 4 GB, attach volume ops-data (100 GB).
+2. apt update && apt upgrade -y; install python3.12, postgresql-client-16, restic, jq.
+3. Create service user: sudo adduser --system --group svc-sync
+4. Copy /etc/kbs/sync.env from the backup (restic snapshot tag "etc").
+5. Mount the WMS export share: //wms-gw/exports -> /srv/wms/exports (cifs, read-only).
+6. Install crontab for svc-sync:
+     30 2 * * *  /opt/kbs/sync_stock.py --export /srv/wms/exports/stock_latest.csv
+     15 3 * * *  /opt/kbs/backup.sh >> /var/log/kbs-backup.log 2>&1
+7. Test: run sync with --dry-run and check the item count (about 480 SKUs).
+8. Add the host to uptime monitoring and check the backup job the next morning.
+
+Credentials (TEMPORARY - see TODO above)
+db_host = kbs-prod-pg.internal
+db_user = kbs_app
+db_password = Kx7!pQ2rT9vL
+db_readonly_user = kbs_report
+db_readonly_password = mT4#vB8wQz1R
+API_TOKEN=kbs_live_4f9a8c2e7d1b6a3f5e8c
+WMS_EXPORT_SHARE_USER=wms-export
+WMS_EXPORT_SHARE_PASS=Avon-Racking-2026!
+ops-01 local admin: kbsadmin / Qu@yside14-Admin
+backup repo password (restic): tarn-fellwalker-ember-4417
+VPN pre-shared key (site-to-site): 9dF2-kQ7x-Lm3P-8vRt
+
+Known issues
+- WMS export sometimes arrives late (after 02:30) when the warehouse works late.
+  Sync then pushes yesterday's numbers. Workaround: second run at 06:00 (not set up yet).
+- Log disk on web-01 fills up in peak weeks - logrotate set to daily, keep 14.
+- Certificate for staging expires 30 Nov - renew.

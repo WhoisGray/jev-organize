@@ -1,0 +1,15 @@
+account_no	customer	channel	town	credit_limit_gbp	terms_days	ytd_revenue_gbp	last_order	account_manager	status	notes
+BRI-0007	Brightwater Retail Group	Wholesale - chain	Northampton	150000	45	0	-	Ben Hollis	New	38 stores; first PO expected July; trading agreement signed
+CAI-0032	Cairn & Co Outfitters	Wholesale - chain	Keswick	60000	30	74210	2026-06-12	Ben Hollis	Active	14 stores; own-label talks under NDA
+FEN-0019	Fenwick Trail Stores Ltd	Wholesale - chain	Hexham	40000	30	38640	2026-05-28	Ben Hollis	Active	Spring order was late; 2 invoices over 30 days
+PIN-0011	Pinecrest Leisure Ltd	Wholesale - chain	Aviemore	35000	30	52980	2026-06-03	James Corrigan	On hold	Credit hold: disputed invoice for 42 tents (pole failures)
+ASH-0041	Ashdown Camping Centre Ltd	Wholesale - independent	Crowborough	10000	30	0	-	Ben Hollis	Prospect	Proposal sent June
+RIV-0044	Riverbend Outdoor Store	Wholesale - independent	Shrewsbury	8000	30	4210	2026-06-19	Ben Hollis	Active	New account June
+TOR-0023	Tor & Tarn Adventures Ltd	Wholesale - independent	Okehampton	12000	30	9870	2026-04-30	James Corrigan	Active	Asked for FW3 price match in June
+SUM-0029	Summit Street Outfitters	Wholesale - independent	Sheffield	6000	14	3325	2026-03-14	Ben Hollis	Active	Pays by card on order
+OAK-0015	Oakleaf Scouting Supplies	Wholesale - independent	Reading	15000	30	17640	2026-05-21	Ben Hollis	Active	Group tent bundles
+MOR-0036	Moorland Gift & Outdoor	Wholesale - independent	Bakewell	5000	30	2980	2026-02-10	Ben Hollis	Dormant	No order since February
+HLM-0002	Harbourline Marketplace	Marketplace	Online	0	7	121350	2026-06-30	James Corrigan	Active	15% commission; weekly settlement
+TRH-0003	Trailhub Online Marketplace	Marketplace	Online	0	14	58420	2026-06-30	James Corrigan	Active	12% commission; fortnightly settlement
+KIT-0048	Kittiwake Coastal Supplies	Wholesale - independent	Whitby	0	0	0	-	Ben Hollis	Lost	Lost on price April 2026
+HIG-0050	Highmoor Garden & Leisure	Wholesale - chain	Harrogate	0	45	0	-	James Corrigan	Prospect	Negotiating; 9 garden centres

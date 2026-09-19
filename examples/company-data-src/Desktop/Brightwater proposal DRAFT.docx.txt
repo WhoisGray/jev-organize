@@ -1,0 +1,33 @@
+# DRAFT v0.3 - Proposal: Kestrel Bay AW26 range for Brightwater Retail Group
+Prepared for: Lauren Ashby, Head of Buying - Outdoor & Leisure, Brightwater Retail Group
+Prepared by: James Corrigan, Head of Sales, Kestrel Bay Supplies Ltd
+Date: 20 May 2026
+Proposal ref: KBS-PROP-2026-014
+[JC: margins below NOT signed off yet - check with Nadia before this goes anywhere]
+# 1. Summary
+Brightwater Retail Group runs 38 stores and a growing online business. We propose a core range of 8 lines across tents, rucksacks, sleeping bags, cooking, outerwear and camp furniture, delivered to your national distribution centre from 1 September 2026, with replenishment every two weeks until February 2027.
+Initial order value at the trade prices below: £118,389 excluding VAT.
+# 2. Proposed range and trade prices (ex VAT)
+SKU | Product | RRP inc VAT | Trade price | Retailer margin | Initial qty
+FW3-GRN | Fellwalker 3 tent, forest green | £299.00 | £132.00 | 47.0% | 190
+RB2-OL | Ridgeback 2P tent, olive (new, Feb 2027) | £279.00 | £124.00 | 46.7% | pre-order
+TARN45-SL | Tarn 45L rucksack, slate | £95.00 | £43.50 | 45.1% | 380
+KL5-REG | Kestrel Lite -5 sleeping bag, regular | £85.00 | £37.00 | 47.8% | 456
+EMB-STV2 | Emberlite 2 gas stove | £35.00 | £15.50 | 46.9% | 570
+SS-JKT-M | Stormshell waterproof jacket, men's | £150.00 | £66.00 | 47.2% | 342
+SS-JKT-W | Stormshell waterproof jacket, women's | £150.00 | £66.00 | 47.2% | 342
+DW-CHR | Driftwood camp chair | £45.00 | £19.50 | 48.0% | 304
+[JC: Lauren said on the call they need 47%+ on tents - is 132 too low for us? Our landed cost on FW3 is ~£71]
+# 3. Commercial terms (draft)
+Payment terms: 60 days end of month.
+Marketing contribution: 3% of net purchases, for in-store point of sale and a joint email campaign.
+Sale or return: up to 10% of the Ridgeback 2P pre-order, returnable until 31 March 2027.
+Minimum order for free delivery: £2,500 per drop.
+Delivery: 5 working days from order to your distribution centre.
+# 4. What Brightwater gets
+Exclusive "Kestrel olive" colourway on the Fellwalker 3 for the high street (other retailers get green only).
+Staff training for store teams: 6 regional sessions in August.
+Warranty handled by us directly: 2 years on all products, 5 years on tent poles.
+# 5. Next steps
+Sample drop to your buying office w/c 1 June. Range review meeting to be confirmed. Contract and supplier set-up forms by 30 June.
+[TODO: add the case study from Cairn & Co? ask Ben. Delete all comments before sending!!]

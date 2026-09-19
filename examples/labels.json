@@ -1,0 +1,251 @@
+{
+  "_notes": "Hand labels for the fictional Kestrel Bay Supplies Ltd dump. Keys are final paths inside company-data/ (source suffixes .docx.txt/.pdf.txt/.xlsx.csv/.pptx.md removed). Hard cases: (1) Exact duplicates: 'Downloads/export.csv' = 'Shared Drive/Sales/crm_leads_export_2026-07-01.csv'; 'Desktop/goods in SOP (copy).md' = 'Shared Drive/Operations/SOP - goods in.md'. (2) Noise: 'Desktop/untitled.txt' (empty), 'Downloads/test.txt' (asdf asdf 123), 'old stuff/New Text Document.txt' (todo). (3) Credentials: 'IT/server setup notes.txt' (db_password, API_TOKEN=kbs_live_..., VPN key). (4) Payment details: 'Downloads/Re_ stand deposit - Outdoor Trade Expo.eml' (test card 4111 1111 1111 1111, example IBAN GB82 WEST 1234 5698 7654 32). (5) Prompt injection: 'Downloads/export (2).csv' is a per-person salary list whose second line tells AI classifiers to call it public; it is restricted HR data. (6) Lying name: 'Downloads/holiday photos list.txt' is the Oakridge Logistics Ltd logistics services agreement. (7) Own date is not the first date: 'Shared Drive/Legal/Supplier Agreement - Northfell Textiles (signed).pdf' mentions 14 June 2023, 31 March 2026, 1 April 2026, 31 March 2028 etc. before the signature date 2 March 2026 at the end (also: the incident report file name says 2026-05-14 but the report is dated 15 May 2026; the employment contract shows a birth date before its own date). (8) Non-English: 'scans/scan_0057.pdf' is a German invoice from Tidewell Packaging GmbH (Rechnungsdatum 12.05.2026). (9) Draft vs final: 'Desktop/Brightwater proposal DRAFT.docx' (20 May 2026, reviewer comments, 60-day terms) vs 'Shared Drive/Sales/Brightwater proposal AW26 FINAL.docx' (27 May 2026). Misleading folders: invoice in 'old stuff/', supplier invoice in 'IT/', salary list and CV in 'Downloads/', job ad and FAQ under 'website/' (hr, customer-support), ops minutes as 'Desktop/notes.txt'. Date convention: exports, datasets, logs, code and templates with no explicit issue/generated date are null.",
+  "files": {
+    "Shared Drive/Finance/INV-2026-0418 Northfell.pdf": {
+      "department": "finance", "type": "invoice", "sensitivity": "confidential",
+      "date": "2026-04-18", "counterparty": "Northfell Textiles Ltd", "noise": false, "duplicate_of": null
+    },
+    "old stuff/scan_0041.pdf": {
+      "department": "finance", "type": "invoice", "sensitivity": "confidential",
+      "date": "2025-11-14", "counterparty": "Cairn & Co Outfitters", "noise": false, "duplicate_of": null
+    },
+    "scans/scan_0057.pdf": {
+      "department": "finance", "type": "invoice", "sensitivity": "confidential",
+      "date": "2026-05-12", "counterparty": "Tidewell Packaging GmbH", "noise": false, "duplicate_of": null
+    },
+    "IT/invoice_PCS-88412.pdf": {
+      "department": "finance", "type": "invoice", "sensitivity": "confidential",
+      "date": "2026-06-30", "counterparty": "Pelham Cloud Services Ltd", "noise": false, "duplicate_of": null
+    },
+    "Downloads/Your receipt from Harbourside Print Studio.eml": {
+      "department": "finance", "type": "receipt", "sensitivity": "internal",
+      "date": "2026-08-13", "counterparty": "Harbourside Print Studio Ltd", "noise": false, "duplicate_of": null
+    },
+    "Downloads/Re_ stand deposit - Outdoor Trade Expo.eml": {
+      "department": "finance", "type": "correspondence", "sensitivity": "restricted",
+      "date": "2026-03-17", "counterparty": "Wrenfield Events Ltd", "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Finance/templates/Expense claim form.docx": {
+      "department": "finance", "type": "form-template", "sensitivity": "internal",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Finance/budget 2026.xlsx": {
+      "department": "finance", "type": "financial-report", "sensitivity": "confidential",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Finance/P&L Jan-Jun 2026.xlsx": {
+      "department": "finance", "type": "financial-report", "sensitivity": "confidential",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Finance/bank/Statement_01Mar-31Mar2026.csv": {
+      "department": "finance", "type": "financial-report", "sensitivity": "confidential",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Finance/VAT/VAT return Q1 2026 summary.pdf": {
+      "department": "finance", "type": "financial-report", "sensitivity": "confidential",
+      "date": "2026-05-07", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Legal/Supplier Agreement - Northfell Textiles (signed).pdf": {
+      "department": "legal", "type": "contract", "sensitivity": "confidential",
+      "date": "2026-03-02", "counterparty": "Northfell Textiles Ltd", "noise": false, "duplicate_of": null
+    },
+    "Downloads/holiday photos list.txt": {
+      "department": "legal", "type": "contract", "sensitivity": "confidential",
+      "date": "2026-06-16", "counterparty": "Oakridge Logistics Ltd", "noise": false, "duplicate_of": null
+    },
+    "from Sarah/NDA Cairn & Co.docx": {
+      "department": "legal", "type": "contract", "sensitivity": "confidential",
+      "date": "2026-02-10", "counterparty": "Cairn & Co Outfitters", "noise": false, "duplicate_of": null
+    },
+    "old stuff/lease.pdf": {
+      "department": "legal", "type": "contract", "sensitivity": "confidential",
+      "date": "2025-09-12", "counterparty": "Quayline Property Holdings Ltd", "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Legal/Data Retention Policy v2.md": {
+      "department": "legal", "type": "policy-procedure", "sensitivity": "internal",
+      "date": "2026-01-14", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Downloads/export (2).csv": {
+      "department": "hr", "type": "dataset", "sensitivity": "restricted",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/HR/leave tracker 2026.xlsx": {
+      "department": "hr", "type": "dataset", "sensitivity": "restricted",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/HR/reviews/final FINAL v3.docx": {
+      "department": "hr", "type": "report-analysis", "sensitivity": "restricted",
+      "date": "2026-07-08", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Downloads/CV_Priya_Ramanathan.docx": {
+      "department": "hr", "type": "cv-application", "sensitivity": "restricted",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "website/careers/warehouse-team-leader.html": {
+      "department": "hr", "type": "job-posting", "sensitivity": "public",
+      "date": "2026-08-03", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "from Sarah/offer letter - T Okafor.docx": {
+      "department": "hr", "type": "contract", "sensitivity": "restricted",
+      "date": "2026-08-21", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/HR/contracts/Employment contract - D Hughes.pdf": {
+      "department": "hr", "type": "contract", "sensitivity": "restricted",
+      "date": "2025-10-06", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/HR/Employee Handbook 2026 - sections 4-7.txt": {
+      "department": "hr", "type": "policy-procedure", "sensitivity": "internal",
+      "date": "2026-02-01", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Desktop/Brightwater proposal DRAFT.docx": {
+      "department": "sales", "type": "quote-proposal", "sensitivity": "confidential",
+      "date": "2026-05-20", "counterparty": "Brightwater Retail Group", "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Sales/Brightwater proposal AW26 FINAL.docx": {
+      "department": "sales", "type": "quote-proposal", "sensitivity": "confidential",
+      "date": "2026-05-27", "counterparty": "Brightwater Retail Group", "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Sales/Cairn & Co range review AW26.pptx": {
+      "department": "sales", "type": "presentation", "sensitivity": "confidential",
+      "date": "2026-06-09", "counterparty": "Cairn & Co Outfitters", "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Sales/crm_leads_export_2026-07-01.csv": {
+      "department": "sales", "type": "dataset", "sensitivity": "confidential",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Downloads/export.csv": {
+      "department": "sales", "type": "dataset", "sensitivity": "confidential",
+      "date": null, "counterparty": null, "noise": false,
+      "duplicate_of": "Shared Drive/Sales/crm_leads_export_2026-07-01.csv"
+    },
+    "Shared Drive/misc/customers.tsv": {
+      "department": "sales", "type": "dataset", "sensitivity": "confidential",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Marketing/AW26 campaign plan.md": {
+      "department": "marketing", "type": "plan-strategy", "sensitivity": "confidential",
+      "date": "2026-06-03", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Marketing/social calendar Q3.xlsx": {
+      "department": "marketing", "type": "plan-strategy", "sensitivity": "internal",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Marketing/press/PR_Avonmouth_warehouse_FINAL.txt": {
+      "department": "marketing", "type": "marketing-content", "sensitivity": "public",
+      "date": "2026-02-09", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "website/newsletter/2026-06-newsletter.html": {
+      "department": "marketing", "type": "marketing-content", "sensitivity": "public",
+      "date": "2026-06-11", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "website/index.html": {
+      "department": "marketing", "type": "marketing-content", "sensitivity": "public",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Product/Ridgeback 2P tent spec v1.2.docx": {
+      "department": "product-engineering", "type": "specification", "sensitivity": "confidential",
+      "date": "2026-04-02", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Product/roadmap.md": {
+      "department": "product-engineering", "type": "plan-strategy", "sensitivity": "confidential",
+      "date": "2026-07-28", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "IT/scripts/sync_stock.py": {
+      "department": "product-engineering", "type": "source-code", "sensitivity": "internal",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "website/deploy/config.yaml": {
+      "department": "product-engineering", "type": "source-code", "sensitivity": "internal",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "scans/scan_0052.pdf": {
+      "department": "operations", "type": "purchase-order", "sensitivity": "confidential",
+      "date": "2026-03-24", "counterparty": "Northfell Textiles Ltd", "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Operations/stock report wk24.xlsx": {
+      "department": "operations", "type": "report-analysis", "sensitivity": "internal",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Operations/SOP - goods in.md": {
+      "department": "operations", "type": "policy-procedure", "sensitivity": "internal",
+      "date": "2026-03-03", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Desktop/goods in SOP (copy).md": {
+      "department": "operations", "type": "policy-procedure", "sensitivity": "internal",
+      "date": "2026-03-03", "counterparty": null, "noise": false,
+      "duplicate_of": "Shared Drive/Operations/SOP - goods in.md"
+    },
+    "Desktop/notes.txt": {
+      "department": "operations", "type": "meeting-notes", "sensitivity": "internal",
+      "date": "2026-06-15", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "IT/IT Security Policy 2026.pdf": {
+      "department": "it-security", "type": "policy-procedure", "sensitivity": "internal",
+      "date": "2026-01-20", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "IT/server setup notes.txt": {
+      "department": "it-security", "type": "policy-procedure", "sensitivity": "restricted",
+      "date": "2026-02-17", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "IT/software_licences.json": {
+      "department": "it-security", "type": "dataset", "sensitivity": "internal",
+      "date": "2026-08-31", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "IT/backup.ini": {
+      "department": "it-security", "type": "source-code", "sensitivity": "internal",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "IT/logs/web-01 error.log": {
+      "department": "it-security", "type": "dataset", "sensitivity": "internal",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "IT/incident report 2026-05-14 phishing.md": {
+      "department": "it-security", "type": "ticket-issue", "sensitivity": "confidential",
+      "date": "2026-05-15", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/Support/tickets_export_june2026.csv": {
+      "department": "customer-support", "type": "dataset", "sensitivity": "internal",
+      "date": null, "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "from Sarah/FW_ Order KB-58213 - tent pole snapped.eml": {
+      "department": "customer-support", "type": "correspondence", "sensitivity": "confidential",
+      "date": "2026-08-03", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "website/help/returns-faq.html": {
+      "department": "customer-support", "type": "policy-procedure", "sensitivity": "public",
+      "date": "2026-08-04", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Board/Board minutes 2026-03-19.docx": {
+      "department": "management", "type": "meeting-notes", "sensitivity": "confidential",
+      "date": "2026-03-19", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Board/Q2 board deck.pptx": {
+      "department": "management", "type": "presentation", "sensitivity": "confidential",
+      "date": "2026-07-16", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Board/investor update H1 2026.md": {
+      "department": "management", "type": "report-analysis", "sensitivity": "confidential",
+      "date": "2026-07-24", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Shared Drive/misc/OKRs Q3 2026.md": {
+      "department": "management", "type": "plan-strategy", "sensitivity": "confidential",
+      "date": "2026-07-02", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Desktop/all hands july.pptx": {
+      "department": "management", "type": "presentation", "sensitivity": "internal",
+      "date": "2026-07-30", "counterparty": null, "noise": false, "duplicate_of": null
+    },
+    "Desktop/untitled.txt": {
+      "department": "other", "type": "other", "sensitivity": "internal",
+      "date": null, "counterparty": null, "noise": true, "duplicate_of": null
+    },
+    "Downloads/test.txt": {
+      "department": "other", "type": "other", "sensitivity": "internal",
+      "date": null, "counterparty": null, "noise": true, "duplicate_of": null
+    },
+    "old stuff/New Text Document.txt": {
+      "department": "other", "type": "other", "sensitivity": "internal",
+      "date": null, "counterparty": null, "noise": true, "duplicate_of": null
+    }
+  }
+}

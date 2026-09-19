@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.local
+out/
+*-organized/
+.jev-organize/
+.DS_Store
+dist/*.tmp
