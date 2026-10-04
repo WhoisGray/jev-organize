@@ -1,10 +1,14 @@
-# jev-organize
+# jev-organize — personal edition by WhoisGray
+
+[فارسی](README.fa.md) · [English](README.md)
 
 <p align="center"><img src="assets/banner.svg" alt="jev-organize: a messy company folder goes in (scan_0041.pdf, final FINAL v3.docx, holiday photos list.txt), one Jev call per file classifies each one, and an organized, indexed tree comes out. About 0.4 s per file and 17 cents per 1,000 files; comes with a Claude skill and a Codex agent." width="100%"></p>
 
 **Throw in a pile of company files. Get them classified, organized and indexed for people and AI agents.**
 
-`jev-organize` reads every file in a folder (Word, Excel, PowerPoint, PDF, email, CSV, HTML, code, plain text) and classifies each one with [TypeSafe's Jev](https://docs.typesafe.ai) decision model on OpenRouter:
+`jev-organize` scans a folder, extracts content from supported file formats, and classifies each file with [TypeSafe's Jev](https://docs.typesafe.ai) decision model, using the TypeSafe API directly:
+
+> This personal edition is maintained by **WhoisGray** and is inspired by the original [jev-organize project](https://github.com/nexibeo/jev-organize). It is an independent adaptation, not the original project.
 
 | For every file | How |
 | --- | --- |
@@ -44,12 +48,11 @@ It comes with a **Claude skill** and a **Codex custom agent**, so you can just s
 
 ## Quick start
 
-You need Node 22.9+ and an [OpenRouter key](https://openrouter.ai/settings/keys).
+You need Node 22.9+ and a [TypeSafe API key](https://console.typesafe.ai/keys).
 
 ```bash
-git clone https://github.com/nexibeo/jev-organize.git
-cd jev-organize
-cp .env.example .env        # paste your OPENROUTER_API_KEY
+# From your clone of this personal repository:
+cp .env.example .env        # paste your TYPESAFE_API_KEY
 node bin/jev-organize.mjs doctor
 ```
 
@@ -67,7 +70,7 @@ node bin/jev-organize.mjs scan ~/Desktop/company-dump              # classify; w
 node bin/jev-organize.mjs apply ~/Desktop/company-dump-organized   # copy files into .../organized
 ```
 
-Or install the command globally: `npm install -g github:nexibeo/jev-organize`, then use `jev-organize …`.
+To use the command globally from this local clone, run `npm link`, then use `jev-organize …`.
 
 ## Use it from Claude or Codex
 
@@ -79,8 +82,8 @@ jev-organize install --project  # the same, into the current project instead
 ```
 
 - **Claude Code**: the `jev-organize` skill loads when you ask to organize, index or audit company files. It estimates first, explains what leaves your machine, samples large folders, and only copies files after you agree.
-- **Claude.ai**: upload [`dist/jev-organize-skill.zip`](dist/jev-organize-skill.zip) under Settings → Capabilities → Skills. Code execution needs network access to `openrouter.ai`.
-- **Codex**: *"Have jev_organizer organize ./dump"*. The agent file turns on network access for its sandbox, because Jev runs on OpenRouter.
+- **Claude.ai**: upload [`dist/jev-organize-skill.zip`](dist/jev-organize-skill.zip) under Settings → Capabilities → Skills. Code execution needs network access to `api.typesafe.ai`.
+- **Codex**: *"Have jev_organizer organize ./dump"*. The agent file turns on network access for its sandbox, because Jev runs on TypeSafe.
 - **Any agent in an organized folder**: `organized/AGENTS.md` and `CLAUDE.md` explain the layout, the catalog and the rules for restricted files.
 
 Ask questions against the catalog without opening files:
@@ -136,7 +139,7 @@ The example data is a fictional company's messy export (`examples/company-data`,
 
 ## Privacy and safety
 
-- **What is sent.** For each file: its path, the first ~4,500 and last ~1,500 characters of its text, and detector counts. Before sending, emails become `[email at domain]` and phone numbers, IBANs, card numbers, national IDs, passwords, keys and tokens become placeholders. Turn masking off with `--no-redact`, or send only file paths with `--names-only`. It goes to OpenRouter, which passes it to TypeSafe (see their privacy terms).
+- **What is sent.** For each file: its path, the first ~4,500 and last ~1,500 characters of its text, and detector counts. Before sending, emails become `[email at domain]` and phone numbers, IBANs, card numbers, national IDs, passwords, keys and tokens become placeholders. Turn masking off with `--no-redact`, or send only file paths with `--names-only`. Requests go directly to TypeSafe (see their privacy terms).
 - **What is stored.** Only on your disk: the catalog, the reports, and a cache of Jev's answers in `<output>/.jev-organize/`. Detectors store counts, never values.
 - **What is changed.** Nothing in the input folder. `apply` copies (or hard-links with `--mode link`) into a separate folder, never overwrites, and is safe to run twice.
 - **Cost control.** `--estimate` before you start, `--max-cost` (default $5) as a brake, `--limit` to try a sample.
@@ -151,15 +154,26 @@ Set `company.name`, rename departments and types (labels become folder names), a
 
 ## Supported files
 
-| Files | Read as |
-| --- | --- |
-| .docx .pptx .xlsx (and macro/template variants), .odt .ods .odp | Text, slides and sheets, with a built-in ZIP reader |
-| .pdf | Text via `pdftotext` when installed, otherwise a built-in reader for simple PDFs. Scanned PDFs have no text and go to review (no OCR) |
-| .eml | Headers, plain-text or HTML body, attachment names |
-| .csv .tsv | Header, first and last rows, column samples for PII questions |
-| .html .md .txt .rtf .json .yaml .xml .log, source code | Text |
-| .zip | The list of files inside |
-| Images, audio, video, other binaries | File name and folder only, so they go to review |
+The CLI can scan folders containing other files too, but it extracts readable content only from the formats below. Other files are identified from their file name and folder and may be sent to review.
+
+| File types | Supported extensions | What is read |
+| --- | --- | --- |
+| Word documents | `.docx`, `.docm`, `.dotx`, `.odt` | Document text |
+| PowerPoint presentations | `.pptx`, `.pptm`, `.potx`, `.odp` | Slide text |
+| Excel spreadsheets | `.xlsx`, `.xlsm`, `.xltx`, `.ods` | Sheet names, headers, and sample rows |
+| PDF documents | `.pdf` | Text via `pdftotext` when installed, otherwise a built-in reader for simple PDFs |
+| Email | `.eml` | Headers, plain-text or HTML body, and attachment names |
+| Tables | `.csv`, `.tsv`, `.tab` | Headers, sample rows, and column samples for PII checks |
+| Web documents | `.html`, `.htm`, `.xhtml` | Page text |
+| Text and documents | `.txt`, `.md`, `.markdown`, `.rst`, `.rtf`, `.log`, `.text`, `.nfo`, `.tex` | Text |
+| Source code | `.py`, `.js`, `.mjs`, `.cjs`, `.ts`, `.tsx`, `.jsx`, `.java`, `.go`, `.rb`, `.php`, `.sh`, `.bash`, `.zsh`, `.ps1`, `.sql`, `.rs`, `.c`, `.h`, `.cpp`, `.hpp`, `.cs`, `.swift`, `.kt`, `.scala`, `.r`, `.m`, `.pl`, `.lua`, `.dart`, `.vue`, `.svelte`, `.css`, `.scss` | Text |
+| Configuration and structured text | `.json`, `.jsonl`, `.ndjson`, `.yaml`, `.yml`, `.toml`, `.ini`, `.cfg`, `.conf`, `.env`, `.properties`, `.xml`, `.plist` | Text |
+| ZIP/JAR archives | `.zip`, `.jar` | Names of files inside the archive only |
+| Images | `.png`, `.jpg`, `.jpeg`, `.gif`, `.webp`, `.heic`, `.heif`, `.tif`, `.tiff`, `.bmp`, `.svg`, `.ico`, `.psd`, `.ai`, `.raw`, `.cr2`, `.nef` | File name and folder only; no OCR or image understanding |
+| Audio and video | `.mp3`, `.wav`, `.m4a`, `.aac`, `.flac`, `.ogg`, `.mp4`, `.mov`, `.avi`, `.mkv`, `.webm`, `.wmv` | File name and folder only; no transcription |
+| Other binaries | Any other unrecognized binary format | File name and folder only |
+
+Scanned PDFs without a text layer are also classified from their name and folder only, then marked for review.
 
 ## Limits
 
@@ -192,8 +206,8 @@ npm run evaluate  # live accuracy run on the example data
 
 No runtime dependencies. See [AGENTS.md](AGENTS.md) for the layout and rules. More Jev examples: [nexibeo/jev-cookbook](https://github.com/nexibeo/jev-cookbook).
 
-## Credits
+## Credits and inspiration
 
-Created by [Jeroen Erne](https://www.linkedin.com/in/jeroenerne/) ([nexibeo.com](https://nexibeo.com) · [completeaitraining.com](https://completeaitraining.com)), built together with Claude.
+This personal edition is maintained by **WhoisGray** and was inspired by [nexibeo/jev-organize](https://github.com/nexibeo/jev-organize), originally created by [Jeroen Erne](https://www.linkedin.com/in/jeroenerne/). The original project and its authors retain their respective rights and credit.
 
-MIT licensed. Jev is made by [TypeSafe](https://typesafe.ai) and served by [OpenRouter](https://openrouter.ai); this project is not affiliated with either.
+Jev is made and served by [TypeSafe](https://typesafe.ai); this project is not affiliated with TypeSafe.

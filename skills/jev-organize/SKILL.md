@@ -1,6 +1,6 @@
 ---
 name: jev-organize
-description: Classify and organize a folder of company files (documents, spreadsheets, PDFs, emails, exports) by department, document type, sensitivity, date, counterparty and personal data, using the jev-organize CLI and TypeSafe's Jev model on OpenRouter. Use when the user wants to sort, clean up, index, audit or map a pile of company data; find which files hold personal data, passwords or payment details; build an AI-readable index of a shared drive; or answer questions like "which contracts do we have with X" over a folder that was organized before.
+description: Classify and organize a folder of company files (documents, spreadsheets, PDFs, emails, exports) by department, document type, sensitivity, date, counterparty and personal data, using the jev-organize CLI and TypeSafe's Jev API. Use when the user wants to sort, clean up, index, audit or map a pile of company data; find which files hold personal data, passwords or payment details; build an AI-readable index of a shared drive; or answer questions like "which contracts do we have with X" over a folder that was organized before.
 ---
 
 # jev-organize
@@ -16,7 +16,7 @@ It never moves, renames, deletes or edits the original files. Jev only picks fro
 
 ## Running it
 
-Requires Node 22.9 or newer and `OPENROUTER_API_KEY` in the environment or in a `.env` file in the current folder.
+Requires Node 22.9 or newer and `TYPESAFE_API_KEY` in the environment or in a `.env` file in the current folder.
 
 Use the first of these that works and call it `JO` below:
 
@@ -24,13 +24,13 @@ Use the first of these that works and call it `JO` below:
 2. `node <this skill's folder>/scripts/bin/jev-organize.mjs` (the bundled copy next to this file)
 3. `npx -y github:nexibeo/jev-organize`
 
-`JO doctor` checks Node, the key, `pdftotext` and one live Jev call. If the key is missing, ask the user to create one at https://openrouter.ai/settings/keys and set it themselves. Never ask them to paste it into the chat, and never write it into a file for them.
+`JO doctor` checks Node, the key, `pdftotext` and one live Jev call. If the key is missing, ask the user to create one at https://console.typesafe.ai/keys and set it themselves. Never ask them to paste it into the chat, and never write it into a file for them.
 
 ## Workflow
 
 1. **Pin down the folders.** Get the input folder. The output goes next to it as `<input>-organized` unless the user wants `--out <dir>`. Never put the output inside the input folder.
 
-2. **Say what leaves the machine.** The text of each file (the first ~6,000 characters, with emails, phone numbers, IBANs, card numbers, ID numbers and secrets masked) is sent to OpenRouter, which passes it to TypeSafe. If the user doesn't want file contents to leave the machine, use `--names-only`: only paths are sent, and accuracy drops a lot.
+2. **Say what leaves the machine.** The text of each file (the first ~6,000 characters, with emails, phone numbers, IBANs, card numbers, ID numbers and secrets masked) is sent directly to TypeSafe. If the user doesn't want file contents to leave the machine, use `--names-only`: only paths are sent, and accuracy drops a lot.
 
 3. **Estimate first.** Run `JO scan <input> --estimate` and report the number of files and the estimated cost. Expect roughly 20 cents per 1,000 files; the estimate is usually within a few percent. `--max-cost` (default $5) stops a run that would cost more.
 
@@ -62,7 +62,7 @@ Then open only the few files you need. Files under `_Restricted/` hold personal 
 
 ## Troubleshooting
 
-- `HTTP 401`: bad key. `HTTP 402`: the OpenRouter account is out of credits.
+- `HTTP 401`: missing or invalid TypeSafe API key. `HTTP 429`: TypeSafe rate limit; the CLI retries transient rate-limit errors automatically.
 - `pdftotext not found`: simple PDFs still work; `brew install poppler` / `apt install poppler-utils` handles the rest.
 - `max_tokens_exceeded`: the tool already retries with less text. If it keeps happening, lower `max_chars` in the config.
 - Wrong company detected: set `company.name` in the config.

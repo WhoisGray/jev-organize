@@ -26,7 +26,7 @@
   <circle cx="560" cy="490" r="210" fill="#6366f1" opacity="0.07"/>
 
   <!-- Title -->
-  <text x="64" y="80" class="sans" font-size="15" font-weight="600" letter-spacing="2.5" fill="#5eead4">TYPESAFE · JEV · OPENROUTER</text>
+  <text x="64" y="80" class="sans" font-size="15" font-weight="600" letter-spacing="2.5" fill="#5eead4">TYPESAFE · JEV</text>
   <text x="62" y="140" class="sans" font-size="60" font-weight="800" fill="#ffffff">jev-organize</text>
   <text x="64" y="180" class="sans" font-size="22" fill="#cbd5e1">Throw in a pile of company files. Get them classified and organized.</text>
 

@@ -138,7 +138,7 @@ test('config validation', () => {
 });
 
 test('CLI: help, estimate without a key, query', () => {
-  const env = { ...process.env, OPENROUTER_API_KEY: '', HOME: base };
+  const env = { ...process.env, TYPESAFE_API_KEY: '', HOME: base };
   assert.match(execFileSync('node', [BIN, '--help'], { env }).toString(), /jev-organize scan <input-folder>/);
   const est = JSON.parse(execFileSync('node', [BIN, 'scan', input, '--out', join(base, 'est'), '--estimate', '--json'], { env, cwd: base }).toString());
   assert.equal(est.files, 7);

@@ -48,7 +48,7 @@ Query filters
   --counterparty <text> --text <text> --review --pii --all (include duplicates and noise)
   --json (full records) --paths (only original paths) --limit <n>
 
-The key: set OPENROUTER_API_KEY in your shell or in a .env file (https://openrouter.ai/settings/keys).
+The key: set TYPESAFE_API_KEY in your shell or in a .env file (https://console.typesafe.ai/keys).
 Originals are never moved, renamed or deleted.`;
 
 // ---------- args ----------
@@ -71,9 +71,9 @@ function parseArgs(argv) {
 }
 
 function loadEnv() {
-  if (process.env.OPENROUTER_API_KEY) return;
+  if (process.env.TYPESAFE_API_KEY) return;
   for (const f of [resolve('.env'), join(PKG_ROOT, '.env'), join(homedir(), '.config', 'jev-organize', '.env')]) {
-    if (existsSync(f)) { try { process.loadEnvFile(f); } catch { /* ignore a malformed file */ } if (process.env.OPENROUTER_API_KEY) return; }
+    if (existsSync(f)) { try { process.loadEnvFile(f); } catch { /* ignore a malformed file */ } if (process.env.TYPESAFE_API_KEY) return; }
   }
 }
 
@@ -202,7 +202,7 @@ function cmdInstall(args) {
     if (existsSync(agentFile) && !args.force) done.push(`${agentFile} already exists (use --force to replace it)`);
     else { mkdirSync(agentDir, { recursive: true }); cpSync(join(PKG_ROOT, '.codex', 'agents', 'jev_organizer.toml'), agentFile); done.push(agentFile); }
   }
-  console.log(`Installed:\n  ${done.join('\n  ')}\n\nThe skill needs OPENROUTER_API_KEY in the environment (or a .env file where you run it).`);
+  console.log(`Installed:\n  ${done.join('\n  ')}\n\nThe skill needs TYPESAFE_API_KEY in the environment (or a .env file where you run it).`);
 }
 
 async function cmdDoctor() {
@@ -212,8 +212,8 @@ async function cmdDoctor() {
   let pdf = false;
   try { (await import('node:child_process')).execFileSync('pdftotext', ['-v'], { stdio: 'ignore' }); pdf = true; } catch { /* optional */ }
   checks.push([pdf ? true : null, pdf ? 'pdftotext found (best PDF text)' : 'pdftotext not found: simple PDFs still work; install poppler for the rest']);
-  const key = !!process.env.OPENROUTER_API_KEY;
-  checks.push([key, key ? 'OPENROUTER_API_KEY is set' : 'OPENROUTER_API_KEY is not set (https://openrouter.ai/settings/keys)']);
+  const key = !!process.env.TYPESAFE_API_KEY;
+  checks.push([key, key ? 'TYPESAFE_API_KEY is set' : 'TYPESAFE_API_KEY is not set (https://console.typesafe.ai/keys)']);
   if (key) {
     try {
       const t0 = Date.now();

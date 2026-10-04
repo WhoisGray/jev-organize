@@ -1,16 +1,15 @@
-// A small client for TypeSafe's Jev decision model on OpenRouter.
+// A small client for TypeSafe's Jev decision model.
 //
 // Jev is not a chat model. You send a `state` (the data) and named `questions`
 // (Choice, Noul or Score), and it returns typed answers with probabilities.
-// OpenRouter serves it at /api/alpha/decisions, not at /api/v1/chat/completions.
+// TypeSafe serves it at /v1/systemone.
 
-// "~typesafe/jev-latest" always points to the newest Jev. The tilde matters:
-// "typesafe/jev-latest" does not exist. Pin e.g. "typesafe/jev-1.13" with JEV_MODEL.
-export const DEFAULT_MODEL = '~typesafe/jev-latest';
-const ENDPOINT = 'https://openrouter.ai/api/alpha/decisions';
+// Use TypeSafe's alias by default, or pin a version with JEV_MODEL.
+export const DEFAULT_MODEL = 'jev-latest';
+const ENDPOINT = 'https://api.typesafe.ai/v1/systemone';
 const RETRY = new Set([408, 429, 500, 502, 503, 524, 529]);
-// OpenRouter's price for Jev 1.13 in September 2026: $0.042 per million input tokens, output free.
-// Only used for the estimate before a run; the real cost comes back with every answer.
+// TypeSafe's price for Jev 1.13: $0.042 per million input tokens, output free.
+// Used for the estimate and to calculate each call's cost from returned input tokens.
 export const PRICE_PER_M_INPUT = 0.042;
 
 /** Running totals for everything this process asked Jev. */
@@ -27,8 +26,6 @@ async function post(body, key) {
     headers: {
       Authorization: `Bearer ${key}`,
       'Content-Type': 'application/json',
-      'HTTP-Referer': 'https://github.com/nexibeo/jev-organize',
-      'X-Title': 'jev-organize',
     },
     body: JSON.stringify(body),
   });
@@ -49,8 +46,8 @@ export async function ask(state, questions, opts = {}) {
 
 /** Ask Jev. Returns { answers, model, cost, inputTokens } for this one call. */
 export async function askWithUsage(state, questions, { model = process.env.JEV_MODEL || DEFAULT_MODEL, retries = 4 } = {}) {
-  const key = process.env.OPENROUTER_API_KEY;
-  if (!key && !transport) throw new JevError('OPENROUTER_API_KEY is not set. Create a key at https://openrouter.ai/settings/keys and put it in .env or your shell.', 0, 'no_key');
+  const key = process.env.TYPESAFE_API_KEY;
+  if (!key && !transport) throw new JevError('TYPESAFE_API_KEY is not set. Create a key at https://console.typesafe.ai/keys and put it in .env or your shell.', 0, 'no_key');
   for (let attempt = 0; ; attempt++) {
     const t0 = Date.now();
     let res;
@@ -68,12 +65,14 @@ export async function askWithUsage(state, questions, { model = process.env.JEV_M
       throw new JevError(`Jev HTTP ${res.status}: ${text.slice(0, 300)}`, res.status, code);
     }
     const json = res.json;
+    const inputTokens = json.usage?.input_tokens ?? 0;
+    const cost = json.usage?.cost ?? (inputTokens / 1_000_000) * PRICE_PER_M_INPUT;
     usage.calls++;
-    usage.inputTokens += json.usage?.input_tokens ?? 0;
-    usage.cost += json.usage?.cost ?? 0;
+    usage.inputTokens += inputTokens;
+    usage.cost += cost;
     if (json.model) usage.models.add(json.model);
     usage.ms.push(Date.now() - t0);
-    return { answers: json.answers, model: json.model ?? null, cost: json.usage?.cost ?? 0, inputTokens: json.usage?.input_tokens ?? 0 };
+    return { answers: json.answers, model: json.model ?? null, cost, inputTokens };
   }
 }
 

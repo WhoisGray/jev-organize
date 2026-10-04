@@ -5,7 +5,7 @@ To *use* jev-organize on company data, see `skills/jev-organize/SKILL.md` (a Cla
 
 ## What this is
 
-A zero-dependency Node 22 CLI that classifies and organizes a folder of company files with TypeSafe's Jev decision model on OpenRouter (`POST https://openrouter.ai/api/alpha/decisions`, model `~typesafe/jev-latest`). Jev only answers typed questions (Choice / Noul / Score) about a `state`; it never writes text. So:
+A zero-dependency Node 22 CLI that classifies and organizes a folder of company files with TypeSafe's Jev decision model (`POST https://api.typesafe.ai/v1/systemone`, model `jev-latest`). Jev only answers typed questions (Choice / Noul / Score) about a `state`; it never writes text. So:
 
 - dates and organisation names are found by code (`src/candidates.mjs`) and Jev picks one ("pick, don't extract");
 - sensitive values are found by code (`src/detect.mjs`), masked before sending, and set a sensitivity floor Jev can't lower;
@@ -37,7 +37,7 @@ npm test                 # offline tests with a fake Jev (no key, no network)
 npm run build            # after any change in bin/ or src/: refresh the skill bundle and dist zip
 npm run check            # fails if the skill bundle is stale
 npm run examples         # rebuild examples/company-data from the sources
-npm run evaluate         # live: scan the examples and score against labels.json (needs OPENROUTER_API_KEY)
+npm run evaluate         # live: scan the examples and score against labels.json (needs TYPESAFE_API_KEY)
 ```
 
 ## Rules
