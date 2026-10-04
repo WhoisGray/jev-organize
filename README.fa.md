@@ -35,6 +35,8 @@ PDF اسکن‌شده که لایه متنی ندارد نیز فقط از رو�
 
 به Node.js نسخه 22.9 یا جدیدتر و یک [کلید API از TypeSafe](https://console.typesafe.ai/keys) نیاز دارید.
 
+با ثبت‌نام مستقیم در [TypeSafe](https://console.typesafe.ai/) می‌توانید **۵ دلار اعتبار رایگان** دریافت کنید.
+
 ```bash
 # ابتدا نسخه شخصی این مخزن را clone کنید و وارد پوشه آن شوید.
 cp .env.example .env

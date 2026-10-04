@@ -50,6 +50,8 @@ It comes with a **Claude skill** and a **Codex custom agent**, so you can just s
 
 You need Node 22.9+ and a [TypeSafe API key](https://console.typesafe.ai/keys).
 
+New users can get **$5 in free credits** by signing up directly with [TypeSafe](https://console.typesafe.ai/).
+
 ```bash
 # From your clone of this personal repository:
 cp .env.example .env        # paste your TYPESAFE_API_KEY
